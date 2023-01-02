@@ -1,0 +1,34 @@
+:root{
+    --color-white:#ffffff;
+    --color-black:#000000;
+    --mask-images: radial-gradient(18px at 18px 18px,#0000 98%,#000) -18px -18px;
+}
+
+/* FONTS */
+
+
+
+body{
+    background-color: red;
+}
+
+img{
+    -webkit-mask: var(--mask-images);
+       -moz-mask: var(--mask-images);
+        -ms-mask: var(--mask-images);
+         -o-mask: var(--mask-images);
+            mask: var(--mask-images);
+}
+
+
+/* __HOME */
+.img_pleca{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+.img_pleca{
+    background-image: url("../images/icono_divisor_pleca.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
