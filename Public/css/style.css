@@ -1,18 +1,22 @@
 :root{
     --color-white:#ffffff;
     --color-black:#000000;
+    --color-oak-claro:#C8961B;
     --mask-images: radial-gradient(18px at 18px 18px,#0000 98%,#000) -18px -18px;
 }
 
 /* FONTS */
 
 
-
-body{
-    background-color: red;
+html, body{
+    overflow-x: hidden;
 }
 
-img{
+body{
+    background-color: green;
+}
+
+img.mask{
     -webkit-mask: var(--mask-images);
        -moz-mask: var(--mask-images);
         -ms-mask: var(--mask-images);
@@ -20,9 +24,28 @@ img{
             mask: var(--mask-images);
 }
 
+/* BTN */
+.cont_btn{
+    position:relative;
+    text-align: center;
+}
+.btn_g{
+    padding: 12px 24px;
+    color: var(--color-oak-claro);
+}
+.btn_principal{
+    background-color: red;
+}
 
 /* __HOME */
+
+    /* BANNER IMAGENES */
+#banner_images > div.row{
+    display: flex;
+    justify-content: space-between;
+}
 .img_pleca{
+    margin: 0 auto;
     position: relative;
     width: 30px;
     height: 30px;
@@ -31,4 +54,19 @@ img{
     background-image: url("../images/icono_divisor_pleca.svg");
     background-repeat: no-repeat;
     background-position: center center;
+}
+.cont_slogan div.col-md-2, .cont_slogan div.col-md-6{
+    padding: 0;
+}
+.cont_border_img{
+    padding: 24px 0px 24px 24px;
+    text-align: center;
+    border-top: 1px solid red;   
+    border-bottom: 1px solid red;   
+    border-right: 1px solid red;   
+}
+.cont_border_txt{
+    padding: 24px 24px 24px 24px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
 }
