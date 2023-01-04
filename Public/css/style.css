@@ -1,11 +1,59 @@
 :root{
     --color-white:#ffffff;
     --color-black:#000000;
+    --color-gris-semiobscuro:#4D4D4D;
+    --color-gris-dark:#333333;
     --color-oak-claro:#C8961B;
     --mask-images: radial-gradient(18px at 18px 18px,#0000 98%,#000) -18px -18px;
+    --font-griffon: griffon, serif;
+    --font-bebas-kai: bebas-kai, sans-serif;
+    --font-broadsheet: broadsheet, serif;
 }
 
 /* FONTS */
+h1, h2, h3, h4{
+    font-family: var(--font-griffon);
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+.navbar-nav > li > a, h5{
+    font-family: var(--font-bebas-kai);
+    font-weight: 400;
+    font-style: normal;
+}
+a.btn_g{
+    font-family: var(--font-broadsheet);
+    font-weight: 400;
+    font-style: italic;
+}
+h2.subTit{
+    font-size: .9em;
+    margin: 30px 0px;
+    text-align: center;
+}
+.tit_general{
+    font-size: 1.44em;
+}
+h2.tit_secundario{
+    font-family: var(--font-broadsheet);
+    font-weight: normal;
+    font-style: italic;
+    color: var(--color-black);
+    font-size: 3.5em;
+}
+h1.tit_secundario_bn{
+    font-family: var(--font-broadsheet);
+    font-weight: normal;
+    font-style: italic;
+    color: var(--color-white);
+    font-size: 5em;
+}
+.txt_general{
+    font-family: var(--font-bebas-kai);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
 
 
 html, body{
@@ -13,10 +61,10 @@ html, body{
 }
 
 body{
-    background-color: green;
+    background-color: lightblue;
+    font-size: 17px;
 }
-
-img.mask{
+.mask{
     -webkit-mask: var(--mask-images);
        -moz-mask: var(--mask-images);
         -ms-mask: var(--mask-images);
@@ -28,32 +76,91 @@ img.mask{
 .cont_btn{
     position:relative;
     text-align: center;
+    margin-top: 30px;
 }
 .btn_g{
     padding: 12px 24px;
-    color: var(--color-oak-claro);
+    font-size: 1em;
 }
 .btn_principal{
-    background-color: red;
+    color: var(--color-oak-claro);
+    transition: all 0.3s;
+}
+.btn_principal img{
+    transition: all 0.3s;
+}
+.btn_principal:hover{
+    color: var(--color-oak-claro);
+    background-color: #F4F4F4;
+    text-decoration: none;
+}
+.btn_principal:hover img{
+    transform: translateX(6px);
+}
+.btn_principal img{
+    width: 50px;
 }
 
-/* __HOME */
+    /* SECTION MARGEN */
+#home_descrip, #home_seleccion, #home_newsletter, #home_certi, #banner_pago, #historia_m_organico, #nuestra_historia, #historia_frase{
+    margin-top: 60px;
+}
+.mt20{
+ margin-top: 20px;   
+}
+.mt40{
+ margin-top: 40px;   
+}
+.mt60{
+ margin-top: 60px;   
+}
+.mb20{
+ margin-bottom: 20px;   
+}
+.mb40{
+ margin-bottom: 40px;   
+}
+.mb60{
+ margin-bottom: 60px;   
+}
+
+/* __HOME__ */
+
+/* MENÚ GENERAL */
+.nav-link{
+    font-size: 1em;
+    margin: 0px 32px;
+}
 
     /* BANNER IMAGENES */
+#banner_images{
+    max-width: 1600px;   
+    margin: 0 auto;
+}
 #banner_images > div.row{
     display: flex;
     justify-content: space-between;
 }
+.img_banner_sm{
+    margin-top: 200px;
+}
+
+    /* HOME DESCRIPCIÓN */
 .img_pleca{
-    margin: 0 auto;
     position: relative;
     width: 30px;
     height: 30px;
+}
+#home_descrip .img_pleca{
+    margin: 0 auto;
 }
 .img_pleca{
     background-image: url("../images/icono_divisor_pleca.svg");
     background-repeat: no-repeat;
     background-position: center center;
+}
+.cont_slogan{
+    margin-top: 40px;
 }
 .cont_slogan div.col-md-2, .cont_slogan div.col-md-6{
     padding: 0;
@@ -61,12 +168,271 @@ img.mask{
 .cont_border_img{
     padding: 24px 0px 24px 24px;
     text-align: center;
-    border-top: 1px solid red;   
-    border-bottom: 1px solid red;   
-    border-right: 1px solid red;   
+    border-top: 1px solid var(--color-black);   
+    border-bottom: 1px solid var(--color-black);   
+    border-right: 1px solid var(--color-black);   
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cont_border_img img{
+    width: 80px;
 }
 .cont_border_txt{
     padding: 24px 24px 24px 24px;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
+    border-top: 1px solid var(--color-black);
+    border-bottom: 1px solid var(--color-black);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    /* NUESTRA SELECCIÓN */
+.cont_item_img{
+    width: 210px;
+    max-width: 210px;
+}
+.cont_item_img > img{
+    width: 100%;
+}
+
+    /* CERTIFICADO */
+#home_certi{
+    position: relative;
+}
+#home_certi .row::before{
+    position: absolute;
+    bottom: 49%;
+    content: "";
+    margin-left: 1%;
+    width: 94%;
+    height: 1px;
+    background-color: var(--color-black);
+}
+.cont_certi{
+    z-index: 1;
+}
+
+    /* NEWSLETTER */
+#home_newsletter{    
+    text-align: center;
+}
+.cont_txt_news{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+#input_news{
+    padding: 6px 16px;
+    width: 200px;
+    font-family: var(--font-bebas-kai);
+    color: var(--color-black);
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--color-black);
+}
+#input_news:focus-visible{
+    outline: none;
+}
+input[type=submit]{
+    position: relative;
+    right: 4px;
+    background-color: var(--color-black);
+    padding: 8px 32px;
+    color: var(--color-white);
+    border: none;
+    font-family: var(--font-broadsheet);
+    font-weight: normal;
+    font-style: italic;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: var(--color-black);
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--color-black);
+}
+
+::placeholder {
+    color: var(--color-black);
+}
+    /* BANNER PAGO */
+#banner_pago{
+     background-image: url("../images/Pleca-negra-footer.svg");
+     background-repeat: no-repeat;
+     background-position: center bottom;
+     background-size: 101%;
+}
+.cont_banner_info{
+    padding: 80px 0px 60px 0px;
+    margin-left: 5%;
+    width: 90%;
+    background-image: url("../images/back-banner-pagos.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    color: var(--color-white);
+}
+.cont_banner_info p{
+    margin-top: 20px;
+    line-height: 1.2em;
+}
+
+/* __FOOTER */
+footer{
+    padding: 60px 0px;
+    background-color: var(--color-black);
+}
+.menu_footer{
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.menu_footer li{
+    margin: 0px 24px;
+}
+.menu_footer a.item_foot_menu{
+    font-family: var(--font-bebas-kai);
+    font-size: 1em;
+    color: var(--color-gris-semiobscuro);
+}
+ul.menu_footer .active{
+    color: var(--color-oak-claro);
+}
+.cont_social{
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    padding: 20px 0px 14px 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid var(--color-gris-dark);
+    border-bottom: 1px solid var(--color-gris-dark);
+}
+.social_pago, .social_media{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.social_pago li, .social_media li{
+    margin: 0px 12px;
+}
+.item_social a img, .social_pago img{
+    width: auto;
+    height: 16px;
+}
+.legales{
+    padding-top: 40px;
+    font-family: var(--font-bebas-kai);
+    color: var(--color-white);
+}
+.aviso_p{
+    color: var(--color-white);
+    margin-left: 24px;
+}
+.aviso_p:hover{
+    color: var(--color-white);
+}
+
+/* __NUESTRA HISTORIA__ */
+#encabezado_nuestra{
+    position: relative;
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    background-image: url("../images/encabezado-back-nuestra-historia.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.encabezado .row img{
+    margin-top: 40px;
+}
+.pleca_bn{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.img_front{
+    position: absolute;
+    right: 56px;
+    top: calc(50% - 91px);
+}
+#historia_descrip{
+    position: relative;
+    top: -70px;
+}
+#historia_descrip .tit_general{
+    margin: 24px 0px;
+}
+#historia_descrip .txt_general{
+    max-width: 380px;
+}
+    /* MEZCAL ORGÁNICO */
+.col_vector{
+    border-top: 1px solid var(--color-black);
+    border-bottom: 1px solid var(--color-black);
+    border-right: 1px solid var(--color-black);
+}
+.col_vector, .col_tit, .col_txt{
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col_tit, .col_txt{
+    border-top: 1px solid var(--color-black);
+    border-bottom: 1px solid var(--color-black);
+}
+.col_tit{
+    padding: 0px 50px;
+}
+.col_txt{
+    padding: 20px 80px 0px 0px;
+}
+.col_vector img{
+    height: 100px;
+}
+    /* NUESTRA HISTORIA */
+#nuestra_historia .row:nth-child(2), #nuestra_historia .row:nth-child(3){
+    margin: 60px 0px 0px 0px;
+}
+
+    /* FRASE */
+#historia_frase{
+    padding-bottom: 40px;
+    background-image: url("../images/Pleca-negra-footer.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 101%;
+}
+#historia_frase .vector_maguey{
+    width: 120px;
+}
+#historia_frase .row > div{
+    height: 260px;
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#historia_frase .col-md-4{
+    padding: 0px 60px 0px 0px;
+    align-content: flex-end;
+    border-top: 1px solid var(--color-black);
+    border-right: 1px solid var(--color-black);
+}
+#historia_frase .col-md-8{
+    border-top: 1px solid var(--color-black);
+    padding: 0px 0px 0px 60px;
 }
