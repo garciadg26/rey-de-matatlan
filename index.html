@@ -9,8 +9,11 @@
     <!-- FONTS -->
     <link rel="stylesheet" href="https://use.typekit.net/zig3fxc.css">
 
-    <!-- ESTILOS GENERALES -->
+    <!-- STYLE -->
     <link rel="stylesheet" href="Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Public/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="Public/css/slide.css?ver=1.0.0">
+
     <link rel="stylesheet" href="Public/css/style.css">
 </head>
 <body>
@@ -32,16 +35,16 @@
             <!-- MENÚ OPCIONES -->
             <ul class="navbar-nav mt-2 align-items-center">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">HOME</a>
+                  <a class="nav-link" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">NUESTRA HISTORIA</a>
+                  <a class="nav-link" href="nuestra-historia.html">NUESTRA HISTORIA</a>
                 </li>
                 <li class="item_logo_desktop">
-                    <a class="navbar-brand" href="#"><img src="Public/images/Logotipo-el-rey-de-mazatlan-mezcal-artesanal.svg" alt=""></a>
+                    <a class="navbar-brand" href="index.html"><img src="Public/images/Logotipo-el-rey-de-mazatlan-mezcal-artesanal.svg" alt=""></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">PRODUCTOS</a>
+                  <a class="nav-link" href="productos.html">PRODUCTOS</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">CONTACTO</a>
@@ -57,9 +60,43 @@
         </nav>
     </div>
     <!-- SLIDER PRINCIPAL -->
-    <article>
+    <!-- SLIDER -->
+    <div class="home-slider owl-carousel js-fullheight">
+        <div class="slider-item js-fullheight slider-item01">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+                    <div class="col-md-12 ftco-animate">
+                        <div class="text w-100 text-center">
+                            <h3 class="tit_slider">Para todo mal, ¡Mezal! </h3>
+                            <h3 class="tit_slider">Para todo bien, también </h3>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    </article>
+        <div class="slider-item js-fullheight slider-item02">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+                    <div class="col-md-12 ftco-animate">
+                        <div class="text w-100 text-center">
+                            <h2 class="sub_slider">¿Estas listo para </h2>
+                            <h1 class="tit_slider">Conocer el mundo?</h1>
+                            <div class="content_btn">
+                                <a class="btn_gen btn_secundario" href="destinos.php">Ver destinos 
+                                    <img class="icon_airplane" src="Public/images/icon_airplane.svg" alt="">
+                                </a>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     <!-- BANNER DE IMAGENES -->
     <section id="banner_images">
         <div class="row contain_banner">
@@ -105,7 +142,7 @@
                 <div class="col-md-12">
                     <div class="cont_btn">
                         <a class="btn_g btn_principal" href="nuestra-historia.html">Nuestra historia 
-                            <img src="Public/images/vector_flecah_btn.svg" alt="">
+                            <img src="Public/images/vector_flecha_btn.svg" alt="">
                         </a>
                     </div>
                 </div>
@@ -126,7 +163,7 @@
                     <h2 class="subTit">LOS MÁS VENDIDOS</h2>
                     <div class="cont_btn">
                         <a class="btn_g btn_principal" href="#">Ver más 
-                            <img src="Public/images/vector_flecah_btn.svg" alt="">
+                            <img src="Public/images/vector_flecha_btn.svg" alt="">
                         </a>
                     </div>
                 </div>
@@ -135,7 +172,7 @@
                     <h2 class="subTit">ARTESANAL</h2>
                     <div class="cont_btn">
                         <a class="btn_g btn_principal" href="#">Ver más 
-                            <img src="Public/images/vector_flecah_btn.svg" alt="">
+                            <img src="Public/images/vector_flecha_btn.svg" alt="">
                         </a>
                     </div>
                 </div>
@@ -144,7 +181,7 @@
                     <h2 class="subTit">ANCESTRALES</h2>
                     <div class="cont_btn">
                         <a class="btn_g btn_principal" href="#">Ver más 
-                            <img src="Public/images/vector_flecah_btn.svg" alt="">
+                            <img src="Public/images/vector_flecha_btn.svg" alt="">
                         </a>
                     </div>
                 </div>
@@ -153,7 +190,7 @@
                     <h2 class="subTit">CREMAS</h2>
                     <div class="cont_btn">
                         <a class="btn_g btn_principal" href="#">Ver más 
-                            <img src="Public/images/vector_flecah_btn.svg" alt="">
+                            <img src="Public/images/vector_flecha_btn.svg" alt="">
                         </a>
                     </div>
                 </div>
@@ -162,7 +199,7 @@
                     <h2 class="subTit">DERIVADOS</h2>
                     <div class="cont_btn">
                         <a class="btn_g btn_principal" href="#">Ver más 
-                            <img src="Public/images/vector_flecah_btn.svg" alt="">
+                            <img src="Public/images/vector_flecha_btn.svg" alt="">
                         </a>
                     </div>
                 </div>
@@ -188,8 +225,10 @@
                 <div class="col-md-12">
                     <h1 class="tit_general">NEWSLETTER</h1>
                     <p class="txt_general cont_txt_news">Forma parte de nuestra exclusiva comunidad y sé el primero en enterarte de ofertas especiales, nuevos productos y eventos.</p>
-                    <input type="email" id="input_news" name="newsletter" placeholder="INGRESA TU MAIL" required>
-                    <input type="submit" value="Suscribirse">
+                    <form class="form_newsletter" id="newsletter" action="">
+                        <input type="email" id="input_news" name="newsletter" placeholder="INGRESA TU MAIL" required>
+                        <input type="submit" value="Suscribirse">
+                    </form>
                 </div>
             </div>
         </div>
@@ -271,5 +310,10 @@
             </div>
          </div>
     </footer>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- SLIDE -->
+    <script type="text/javascript" src="Public/js/owl.carousel.min.js" ></script>
+    <script type="text/javascript" src="Public/js/slider.js?ver=1.0.0" ></script>
 </body>
 </html>

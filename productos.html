@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - El Rey de Mazatlán</title>
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://use.typekit.net/zig3fxc.css">
+
+    <!-- ESTILOS GENERALES -->
+    <link rel="stylesheet" href="Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Public/css/style.css">
+</head>
+<body>
+    <!-- MENÚ PRINCIPAL -->
+    <div class="menu_desktop">
+        <nav class="navbar navbar-expand-lg">
+
+            <a class="navbar-brand d-none" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between">
+            <!-- MENÚ SOCIAL -->
+            <ul class="navbar_social d-flex ">
+                <li class="item_social">F</li>
+                <li class="item_social">I</li>
+            </ul>
+            <!-- MENÚ OPCIONES -->
+            <ul class="navbar-nav mt-2 align-items-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nuestra-historia.html">NUESTRA HISTORIA</a>
+                </li>
+                <li class="item_logo_desktop">
+                    <a class="navbar-brand" href="index.html"><img src="Public/images/Logotipo-el-rey-de-mazatlan-mezcal-artesanal.svg" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACTO</a>
+                </li>
+                </ul>
+                <!-- MENÚ CARRITO -->
+                <ul class="list_carrito">
+                <li class="item_carrito">
+                    <a href="#"><img src="" alt=""></a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- ENCABEZADO -->
+    <section id="encabezado_productos" class="encabezado">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="tit_secundario_bn">Amor sincero, <br> el de un mezcalero.</h1>
+                    <img src="Public/images/vector-orgullo-oaxaquenio.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <img class="pleca_bn img-fluid" src="Public/images/pleca_blanca_footer.svg" alt="">
+    </section>
+    <!-- PRODUCTOS -->
+    <section id="productos_filter">
+        <div class="container">
+            <div class="row cont_buscador">
+                <div class="col-md-12 text-right">
+                    <div id="buscadorProducto" class="buscador">
+                        <form id="search_products" class="form_search" action="">
+                            <input id="input_search" class="" type="search" placeholder="BUSCAR PRODUCTO" aria-label="Search">
+                            <button class="btn_search" type="submit"><img src="Public/images/icon_search.svg" alt=""></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 cont_iqz">
+                    <div class="cont_menu_izq">
+                        <h1 class="tit_general tit_menu_izq">NUESTRA SELECCIÓN</h1>
+                        <div id="list-example" class="list-group">
+                            <a class="list-group-item list-group-item-action" href="#list-item-1">Más vendido</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-2">Artesanal</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-3">Ancestral</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-4">Cremas</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-5">Derivados</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 cont_productos_der">
+                    <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+
+                        <!-- MÁS VENDIDOS -->
+                        <div id="list-item-1" class="cont_list_product">
+                            <h4 >LOS MÁS VENDIDOS</h4>
+                            <div class="row">
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                                        <h6 class="nom_producto">Joven espadín</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                                        <h6 class="nom_producto">Reposado con gusano</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                                        <h6 class="nom_producto">Añejo</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                                        <h6 class="nom_producto">Gran reserva</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ARTESANAL -->
+                        <div id="list-item-2" class="cont_list_product">
+                            <h4 >LOS MÁS VENDIDOS</h4>
+                            <div class="row">
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Punta espadín</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Reposado con gusano</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Añejo</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Gran reserva</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ANCESTRAL -->
+                        <div id="list-item-3" class="cont_list_product">
+                            <h4 >ANCESTRAL</h4>
+                            <div class="row">
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Punta espadín</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Reposado con gusano</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Añejo</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Gran reserva</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- CREMAS -->
+                        <div id="list-item-3" class="cont_list_product">
+                            <h4 >CREMAS</h4>
+                            <div class="row">
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Punta espadín</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Reposado con gusano</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Añejo</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Gran reserva</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DERIVADOS -->
+                        <div id="list-item-3" class="cont_list_product">
+                            <h4 >DERIVADOS</h4>
+                            <div class="row">
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Punta espadín</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Reposado con gusano</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Añejo</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                            <li class="item_ml_producto">250ML</li>
+                                            <li class="item_ml_producto">50ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="col-md-3">
+                                    <div class="cont_p_indv">
+                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <h6 class="nom_producto">Gran reserva</h6>
+                                        <ul class="lista_ml_producto">
+                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                                            <li class="item_ml_producto">1LT</li>
+                                            <li class="item_ml_producto">700ML</li>
+                                            <li class="item_ml_producto">500ML</li>
+                                        </ul>
+                                        <div class="cont_btn">
+                                            <a class="btn_g btn_principal" href="nuestra-historia.html">Ver más 
+                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="container">
+            <!-- LOGOTIPO -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="Public/images/vector_rey_de_matatlan_bn.svg" alt="">
+                </div>
+            </div>
+            <!-- MENÙ FOOTER -->
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="menu_footer">
+                        <li><a class="item_foot_menu active" href="#">HOME</a> </li>
+                        <li><a class="item_foot_menu" href="#">NUESTRA HISTORIA</a> </li>
+                        <li><a class="item_foot_menu" href="#">PRODUCTOS</a> </li>
+                        <li><a class="item_foot_menu" href="#">CONTACTO</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- SOCIAL MEDIA -->
+            <div class="row">
+                <div class="cont_social">
+                    <ul class="social_media">
+                        <li class="item_social">
+                            <a href="#"><img src="Public/images/icon_instagram.svg" alt="Icono de instagram"></a>
+                        </li>
+                        <li class="item_social">
+                            <a href="#"><img src="Public/images/icon_facebook.svg" alt=""></a>
+                        </li>
+                    </ul>
+                    <ul class="social_pago">
+                        <li class="item_pago">
+                            <img src="Public/images/icon_visa.svg" alt="">
+                        </li>
+                        <li class="item_pago">
+                            <img src="Public/images/icon_mastercard.svg" alt="">
+                        </li>
+                        <li class="item_pago">
+                            <img src="Public/images/icon_paypal.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- LEGALES -->
+            <div class="row legales text-center">
+                <div class="col-md-12">
+                    <p> &reg; 2022 Derechos Reservados <a class="aviso_p" href="#">AVISO DE PRIVACIDAD</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="Public/js/bootstrap.min.js"></script>
+</body>
+</html>
