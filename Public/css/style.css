@@ -583,7 +583,7 @@ button[type=submit]{
     background-position: center center;
     background-size: cover;
 }
-/* PRODUCTO INDIVIDUAL */
+    /* PRODUCTO INDIVIDUAL */
 .cont_list_product{
     margin: 24px 0px;
     padding: 22px 0px 12px 0px;
@@ -630,6 +630,9 @@ button[type=submit]{
 .divisor_line{
     height: 4px;
 }
+
+/* __DETALLE PRODUCTO__ */
+
 
     /* MENÚ DERECHO */
 /*.scrollspy-example {
