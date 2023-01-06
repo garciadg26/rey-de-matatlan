@@ -127,14 +127,30 @@ body{
 
 /* __HOME__ */
 
-/* MENÚ GENERAL */
+/* NAV PRINCIPAL BLANCO */
+.menu_desktop_bn{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
 .nav-link{
     font-size: 1em;
     margin: 0px 32px;
 }
+.menu_desktop_bn .nav-link{
+    color: var(--color-white);
+}
+
+.menu_desktop_bk{
+background-color: blue;
+}
+/* NAV PRINCIPAL NEGRO */
+.menu_desktop_bk .nav-link{
+    color: var(--color-black);
+}
 
     /* BANNER IMAGENES */
-#banner_images{
+.contain_banner{
     max-width: 1600px;   
     margin: 0 auto;
 }
@@ -149,6 +165,65 @@ body{
     /* SLIDER */
 .slider-item01{
     background-image: url("../images/Slider-homepage-para-todo-mal-mezcal.jpg");
+}
+.slider-item02{
+    background-image: url("../images/Slider-homepage-para-todo-mal-mezcal.jpg");
+}
+.tit_slider{
+    font-family: var(--font-broadsheet);
+    font-size: 7em;
+    font-weight: normal;
+    line-height: 1;
+    font-style: italic;
+}
+.vector_oaxaca_slider{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 140px;
+}
+.scroll_icon{
+    margin-top: 60px;
+}
+.scroll_icon img{
+    margin: 0 auto;
+    width: auto!important;
+    height: 120px;
+}
+.scroll_icon::before, .scroll_icon::after{
+    position: absolute;
+    color: #fff;
+    font-family: var(--font-broadsheet);
+    font-style: italic;
+    letter-spacing: 6px;
+    font-size: 1em;
+    color: var(--color-oak-claro);
+}
+.scroll_icon::before{
+    margin-top: 20px;
+    left: 39%;
+    content: "SCROLL";
+}
+.scroll_icon::after{
+    margin-top: -100px;
+    left: 53%;
+    content: "DOWN";
+}
+    /* BANNER IMAGENES */
+#banner_images{
+    position: relative;
+    margin-top: -20vh;
+}
+.back_pleca{
+    position: absolute;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 40%, rgba(255,255,255,0) 100%);
+    width: 100%;
+    height: 30vh;
+}
+.back_pleca img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
     /* HOME DESCRIPCIÓN */
