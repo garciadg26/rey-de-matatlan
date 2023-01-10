@@ -692,10 +692,10 @@ button[type=submit]{
     font-family: var(--font-bebas-kai);
     font-size: 1em;
 }
-.input-group{
+/*.input-group{
     width: 130px;
     margin: 0 auto;
-}
+}*/
 .tit_detalle_descrip{
     font-family: var(--font-griffon);
 }
@@ -703,9 +703,9 @@ button[type=submit]{
     border: none;
     text-align: center;
 }
-.input-group{
+/*.input-group{
     border: 1px solid var(--color-black);
-}
+}*/
 .item_precio{
     margin-top: 32px;
     font-family: var(--font-griffon);
@@ -740,6 +740,22 @@ button[type=submit]{
 .cont_tit_page{
     padding: 20px 0px;
 }
+.cont_cout{
+    width: 100px;
+    padding: 4px 0px 4px 4px;
+    margin: 0 auto;
+    border: 1px solid var(--color-black);
+}
+.cont_cout .field{
+    text-align: center;
+    border: none;
+    width: 40px;
+}
+.cont_cout .sub, .cont_cout .add{
+    border: none;
+    background-color: #fff;
+}
+
 
 /* __CARRITO DE COMPRAS__ */
 #cont_carrito{
@@ -760,8 +776,6 @@ button[type=submit]{
 .table td{
     vertical-align: middle;
     text-align: center;
-}
-.fila_carrito{
 }
 .tit_carrito{
     font-family: var(--font-griffon);
