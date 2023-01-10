@@ -10,10 +10,10 @@
 
     <!-- STYLE -->
     <link rel="stylesheet" href="Public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Public/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="Public/css/slide.css?ver=1.0.0">
-
     <link rel="stylesheet" href="Public/css/style.css">
+    <!-- ICONS -->
+    
+
 </head>
 <body>
     <!-- MENÚ PRINCIPAL -->
@@ -61,12 +61,17 @@
 
     <!-- BREADCRUMB -->
     <section>
+        <div class="line_up"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item">
+                                <a class="icon_homepage" href="#">
+                                <img src="Public/images/icon_homepage.svg" alt="">
+                                </a>
+                            </li>
                             <li class="breadcrumb-item"><a href="#">Productos</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Más vendidos</li>
                         </ol>
@@ -74,6 +79,222 @@
                 </div>
             </div>
         </div>
+        <div class="line_down"></div>
     </section>
+    <!-- PRODUCTO INDIVIDUAL -->
+    <section id="producto_detalle">
+        <div class="container">
+            <div class="row row_product">
+                <!-- FOTO DEL PRODUCTO -->
+                <div class="col-md-6 text-center">
+                    <img class="mask img-fluid" src="Public/images/producto-joven-espadin.jpg" alt="Producto joven espadín">
+                </div>
+                <!-- DETALLE DEL PRODUCTO -->
+                <div class="col-md-6 cont_detalle_product d-flex align-items-center">
+                    <!-- NOMBRE DEL PRODUCTO -->
+                    <div class="cont">
+                        <h4 class="tit_product">Jovén espadín</h4>
+                        <!-- DESCRIPCIÓN DEL PRODUCTO -->
+                        <p class="descp_product">El mezcal joven es un bi-destilado, incoloro, con un aroma ahumado típico en un mezcal artesanal donde se utiliza un horno de piedra par cocinar los agaves, tiene notas que a el exhalar predomina un aroma petricor. <br><br>
+                            Este mezcal es producido en nuestros cultivos de agave espadín (Angustin folia how), con una graduación de 38-40% Alc. Vol. (dependiendo del cliente).</p>
+                        <!-- FILA DESCRIPTIVO -->
+                        <div class="row cont_contenido">
+                            <!-- CONTENIDO NETO -->
+                            <div class="col-md-5">
+                                <h6 class="tit_detalle_descrip">Contenido neto</h6>
+                                <select name="select_contenido" id="contenido_value">
+                                    <option value="1l">1L</option>
+                                    <option value="700ml">700ML</option>
+                                    <option value="500ml">500ML</option>
+                                    <option value="250ml">250ML</option>
+                                    <option value="50ml">50ML</option>
+                                </select>
+                            </div>
+                            <!-- CANTIDAD -->
+                            <div class="col-md-4">
+                                <h6 class="tit_detalle_descrip">Cantidad</h6>
+                                <div class="input-group">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                            <span class="glyphicon glyphicon-minus">-</span>
+                                        </button>
+                                    </span>
+                                    <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                                            <span class="glyphicon glyphicon-plus">+</span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- PRECIO -->
+                            <div class="col-md-3">
+                                <p class="item_precio">$350</p>
+                            </div>
+                        </div>
+                        <!-- FILA BOTONES -->
+                        <div class="row cont_btn_detalle">
+                            <div class="col-md-6">
+                                <div class="cont_btn">
+                                    <a class="btn_g btn_secundario" href="#">Seguir comprando</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cont_btn">
+                                    <a class="btn_g btn_principal" href="carrito.html">Agregar al carrito 
+                                        <img src="Public/images/vector_flecha_btn.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="pleca_dividir_relacionados"></div>
+
+    <!-- PRODUCTOS RELACIONADOS -->
+    <section id="productos_relacionados">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="tit_general">Productos que te pueden gustar</h4>
+                </div>
+                <!-- PRODUCTO RELACIONADO 01 -->
+                <div class="col-md-2">
+                    <div class="cont_p_indv">
+                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                        <h6 class="nom_producto">Joven espadín</h6>
+                        <ul class="lista_ml_producto">
+                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                            <li class="item_ml_producto">700ML</li>
+                            <li class="item_ml_producto">250ML</li>
+                            <li class="item_ml_producto">50ML</li>
+                        </ul>
+                        <div class="cont_btn">
+                            <a class="btn_g btn_principal" href="detalle.html">Ver más 
+                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- PRODUCTO 01 -->
+                <div class="col-md-2">
+                    <div class="cont_p_indv">
+                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                        <h6 class="nom_producto">Añejo</h6>
+                        <ul class="lista_ml_producto">
+                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                            <li class="item_ml_producto">700ML</li>
+                            <li class="item_ml_producto">500ML</li>
+                            <li class="item_ml_producto">250ML</li>
+                            <li class="item_ml_producto">50ML</li>
+                        </ul>
+                        <div class="cont_btn">
+                            <a class="btn_g btn_principal" href="detalle.html">Ver más 
+                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- PRODUCTO 01 -->
+                <div class="col-md-2">
+                    <div class="cont_p_indv">
+                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                        <h6 class="nom_producto">Reposado con gusano</h6>
+                        <ul class="lista_ml_producto">
+                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                            <li class="item_ml_producto">700ML</li>
+                            <li class="item_ml_producto">500ML</li>
+                            <li class="item_ml_producto">250ML</li>
+                            <li class="item_ml_producto">50ML</li>
+                        </ul>
+                        <div class="cont_btn">
+                            <a class="btn_g btn_principal" href="detalle.html">Ver más 
+                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- PRODUCTO 01 -->
+                <div class="col-md-2">
+                    <div class="cont_p_indv">
+                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                        <h6 class="nom_producto">Gran reserva</h6>
+                        <ul class="lista_ml_producto">
+                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
+                            <li class="item_ml_producto">1L</li>
+                            <li class="item_ml_producto">700ML</li>
+                            <li class="item_ml_producto">500ML</li>
+                            <li class="item_ml_producto">250ML</li>
+                            <li class="item_ml_producto">50ML</li>
+                        </ul>
+                        <div class="cont_btn">
+                            <a class="btn_g btn_principal" href="detalle.html">Ver más 
+                                <img src="Public/images/vector_flecha_btn.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="container">
+            <!-- LOGOTIPO -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="Public/images/vector_rey_de_matatlan_bn.svg" alt="">
+                </div>
+            </div>
+            <!-- MENÙ FOOTER -->
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="menu_footer">
+                        <li><a class="item_foot_menu active" href="#">HOME</a> </li>
+                        <li><a class="item_foot_menu" href="#">NUESTRA HISTORIA</a> </li>
+                        <li><a class="item_foot_menu" href="#">PRODUCTOS</a> </li>
+                        <li><a class="item_foot_menu" href="#">CONTACTO</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- SOCIAL MEDIA -->
+            <div class="row">
+                <div class="cont_social">
+                    <ul class="social_media">
+                        <li class="item_social">
+                            <a href="#"><img src="Public/images/icon_instagram.svg" alt="Icono de instagram"></a>
+                        </li>
+                        <li class="item_social">
+                            <a href="#"><img src="Public/images/icon_facebook.svg" alt=""></a>
+                        </li>
+                    </ul>
+                    <ul class="social_pago">
+                        <li class="item_pago">
+                            <img src="Public/images/icon_visa.svg" alt="">
+                        </li>
+                        <li class="item_pago">
+                            <img src="Public/images/icon_mastercard.svg" alt="">
+                        </li>
+                        <li class="item_pago">
+                            <img src="Public/images/icon_paypal.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- LEGALES -->
+            <div class="row legales text-center">
+                <div class="col-md-12">
+                    <p> &reg; 2022 Derechos Reservados <a class="aviso_p" href="#">AVISO DE PRIVACIDAD</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="Public/js/main.js"></script>
 </body>
 </html>
