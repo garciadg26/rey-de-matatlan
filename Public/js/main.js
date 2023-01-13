@@ -1,74 +1,95 @@
 
 $(document).ready(function(){
+
     contadorInput();
-    console.log("Hola mundo");
     scrollHeader();
-    showMenu()
+    animateProductScroll();
+    menuActive();
+
 });
 
 
 /*=============== FUNCIÓN CONTADOR PRODUCTO ===============*/
 function contadorInput(){
-    var unit = 0;
-    var total;
-    // if user changes value in field
-    $('.field').change(function() {
-      unit = this.value;
-    });
-    $('.add').click(function() {
-      unit++;
-      var $input = $(this).prevUntil('.sub');
-      $input.val(unit);
-      unit = unit;
-    });
-    $('.sub').click(function() {
-      if (unit > 0) {
-        unit--;
-        var $input = $(this).nextUntil('.add');
-        $input.val(unit);
-      }
-    });
+    
+    $(document).on('click', '.qty-plus', function () {
+        $(this).prev().val(+$(this).prev().val() + 1);
+
+     });
+     $(document).on('click', '.qty-minus', function () {
+        if ($(this).next().val() > 0) $(this).next().val(+$(this).next().val() - 1);
+     });
+
 }
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 function scrollHeader(){
-  const header = document.getElementById('menu_dark')
-  // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
-  if(this.scrollY >= 10) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
+    const header = document.getElementById('menu_dark');
+    // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
+    if(this.scrollY >= 10) header.classList.add('scroll-header'); else header.classList.remove('scroll-header');
 }
 window.addEventListener('scroll', scrollHeader)
 
 
-function showMenu(){
-/*=============== SHOW MENU ===============*/
-const navMenu = document.getElementById('nav-menu'),
-      navToggle = document.getElementById('nav-toggle'),
-      navClose = document.getElementById('nav-close')
 
-/*===== MENU SHOW =====*/
-/* Validate if constant exists */
-if(navToggle){
-    navToggle.addEventListener('click', () =>{
-        navMenu.classList.add('show-menu')
-    })
+/*=============== ANIMATE PRODUCT MENÚ ===============*/
+function animateProductScroll(){
+    $('.list-group a').on('click',function(event){
+        var $anchor = $(this);
+
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top -240
+        }, 600);
+        event.preventDefault();
+    });
 }
 
-/*===== MENU HIDDEN =====*/
-/* Validate if constant exists */
-if(navClose){
-    navClose.addEventListener('click', () =>{
-        navMenu.classList.remove('show-menu')
-    })
+/*=============== MENÚ PRINCIPAL ===============*/
+function menuActive(){
+    const header = document.getElementById('menu_dark');
+
+    // INICIO
+    if ( document.URL.includes("index.html") ) {    
+        $('.navbar-nav li, .menu_footer li').removeClass("active");
+        $('.navbar-nav li:nth-child(1), .menu_footer li:nth-child(1)').addClass("active");
+        console.log('Estoy en el menu de inicio');
+        /* CAMBIO DE COLOR HEADER */
+        header.classList.add('color_white'); 
+    }
+    // NUESTRA HISTORIA
+    if ( document.URL.includes("nuestra-historia.html") ) {    
+        $('.navbar-nav li, .menu_footer li').removeClass("active");
+        $('.navbar-nav li:nth-child(2), .menu_footer li:nth-child(2)').addClass("active");
+        console.log('Estoy en el menu de nuestra historia');
+        /* CAMBIO DE COLOR HEADER */
+        header.classList.add('color_white'); 
+    }  
+    // PRODUCTOS
+    if ( document.URL.includes("productos.html") ) {    
+        $('.navbar-nav li, .menu_footer li').removeClass("active");
+        $('.navbar-nav li:nth-child(4), .menu_footer li:nth-child(3)').addClass("active");
+        console.log('Estoy en el menu de nuestra historia');
+        /* CAMBIO DE COLOR HEADER */
+        header.classList.add('color_white'); 
+    } 
+    // INFORMACIÓN DE TU CUENTA
+    if ( document.URL.includes("informacion-cuenta.html") ) {    
+        $('.cont_pasos_cuenta li').removeClass("active");
+        $(".cont_pasos_cuenta li:nth-child(1)").addClass("active");
+        console.log('Estoy en el menu de información de la cuenta');
+    } 
+    // INFORMACIÓN ENVIOS
+    if ( document.URL.includes("envios.html") ) {    
+        $('.cont_pasos_cuenta li').removeClass("active");
+        $(".cont_pasos_cuenta li:nth-child(2)").addClass("active");
+        console.log('Estoy en el menu de información de la cuenta');
+    } 
+    // INFORMACIÓN PAGOS
+    if ( document.URL.includes("pagos.html") ) {    
+        $('.cont_pasos_cuenta li').removeClass("active");
+        $(".cont_pasos_cuenta li:nth-child(3)").addClass("active");
+        console.log('Estoy en el menu de información de la cuenta');
+    } 
 }
 
-/*=============== REMOVE MENU MOBILE ===============*/
-const navLink = document.querySelectorAll('.nav__link')
 
-function linkAction(){
-    const navMenu = document.getElementById('nav-menu')
-    // When we click on each nav__link, we remove the show-menu class
-    navMenu.classList.remove('show-menu')
-}
-navLink.forEach(n => n.addEventListener('click', linkAction))
-
-}

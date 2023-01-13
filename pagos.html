@@ -85,18 +85,6 @@
         </nav>
     </div>
     <div class="space_top"></div>
-    <!-- TITULO PÁGINA -->
-    <section>
-        <div class="line_up"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center cont_tit_page">
-                    <h1 class="tit_general">Información de tu cuenta</h1>
-                </div>
-            </div>
-        </div>
-        <div class="line_down"></div>
-    </section>
     <!-- PASOS DE LA COMPRA -->
     <section id="info_step">
         <div class="container">
@@ -118,70 +106,38 @@
     </section>
 
     <!-- INFORMACIÓN DE LA CUENTA -->
-    <section id="info_cuenta">
+    <section id="enviar">
         <div class="container">
             <div class="row">
                 <!-- FORMULARIO DE INFORMACIÓN -->
                 <div class="col-lg-6 col-md-12">
-                    <form id="form_cuenta" action="">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <label for="email">Información de contacto</label><br>
-                                <input type="email" name="email" id="emailI" placeholder="Correo Electrónico">
-                            </div>
-                        </div>
-                        <div class="row fila_direccion_envio">
-                            <div class="col-md-12">
-                                <label for="nombreI">Dirección de envío</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" name="nombreI" id="nombreI" placeholder="Nombre">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" name="nombreI" id="apellidoI" placeholder="Apellido">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <input type="text" name="calleI" id="calleI" placeholder="Calle y número">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <input type="text" name="coloniaI" id="coloniaI" placeholder="Colonia">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <input type="text" name="ciudadI" id="ciudadI" placeholder="Ciudad">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" name="EstadoI" id="estado" placeholder="Estado">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" name="codigoPostalI" id="codigoPostalI" placeholder="C.P.">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <input type="tel" name="telI" id="telI" placeholder="Tel. / Cel.">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>En caso de que tengamos que contactarte sobre tu pedido</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <input type="submit" value="Enviar">
-                            </div>
-                        </div>
-                    </form>
+                    <div class="cont_datos_envio">
+                        <h5 class="">Contacto:</h5>
+                        <p class="txt_general">alan@tiposlibres.com</p>
+                    </div>
+                    <div class="cont_datos_envio">
+                        <h5 class="">Enviar a:</h5>
+                        <p class="txt_general">Senda del Amanecer, No. 151, Col. Milenio, Querétaro, CP 76060</p>
+                    </div>
+                    <div class="cont_btn cont_btn_datos_e">
+                        <a class="btn_g btn_secundario" href="informacion-cuenta.html">Cambiar</a>
+                    </div>
+                    <div class="metodo_pago">
+                        <h2 class="tit_general">Método de pago</h2>
+                        <form action="">
+                            <label class="cont_pago cont_paypal" for="paypal">
+                                <input type="radio" name="paypal" id="paypal">
+                                <img src="Public/images/pay-pal.jpg" alt="">
+                            </label>
+                            <br>
+                            <label class="cont_pago cont_deposito" for="deposito">
+                                <input type="radio" name="paypal" id="deposito">
+                                <h6>Depósito en tiendas o en bancos</h6>
+                                <img class="img_oxxo" src="Public/images/oxxo.jpg" alt="">
+                                <img class="img_banamex" src="Public/images/banamex.jpg" alt="">
+                            </label>
+                        </form>
+                    </div>
                 </div>
                 <!-- DATOS DE PRODUCTOS -->
                 <div class="col-lg-6 col-md-12">
@@ -252,12 +208,12 @@
                     <div class="row cont_btn_detalle">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div class="cont_btn">
-                                <a class="btn_g btn_secundario" href="#">Seguir comprando</a>
+                                <a class="btn_g btn_secundario" href="productos.html">Seguir comprando</a>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div class="cont_btn">
-                                <a class="btn_g btn_principal" href="envios.html">Continuar 
+                                <a class="btn_g btn_principal" href="envios.html">Terminar
                                     <img src="Public/images/vector_flecha_btn.svg" alt="">
                                 </a>
                             </div>
@@ -268,58 +224,69 @@
         </div>
     </section>
 
+
+
     <!-- FOOTER -->
     <footer id="footer">
         <div class="container">
-            <!-- LOGOTIPO -->
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <img src="Public/images/vector_rey_de_matatlan_bn.svg" alt="">
-                </div>
-            </div>
-            <!-- MENÙ FOOTER -->
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="menu_footer">
-                        <li><a class="item_foot_menu active" href="#">HOME</a> </li>
-                        <li><a class="item_foot_menu" href="#">NUESTRA HISTORIA</a> </li>
-                        <li><a class="item_foot_menu" href="#">PRODUCTOS</a> </li>
-                        <li><a class="item_foot_menu" href="#">CONTACTO</a> </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- SOCIAL MEDIA -->
-            <div class="row">
-                <div class="cont_social">
-                    <ul class="social_media">
-                        <li class="item_social">
-                            <a href="#"><img src="Public/images/icon_instagram.svg" alt="Icono de instagram"></a>
-                        </li>
-                        <li class="item_social">
-                            <a href="#"><img src="Public/images/icon_facebook.svg" alt=""></a>
-                        </li>
-                    </ul>
-                    <ul class="social_pago">
-                        <li class="item_pago">
-                            <img src="Public/images/icon_visa.svg" alt="">
-                        </li>
-                        <li class="item_pago">
-                            <img src="Public/images/icon_mastercard.svg" alt="">
-                        </li>
-                        <li class="item_pago">
-                            <img src="Public/images/icon_paypal.svg" alt="">
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- LEGALES -->
-            <div class="row legales text-center">
-                <div class="col-md-12">
-                    <p> &reg; 2022 Derechos Reservados <a class="aviso_p" href="#">AVISO DE PRIVACIDAD</a></p>
-                </div>
-            </div>
+           <!-- LOGOTIPO -->
+           <div class="row">
+               <div class="col-md-12 text-center">
+                   <img src="Public/images/vector_rey_de_matatlan_bn.svg" alt="">
+               </div>
+           </div>
+           <!-- MENÙ FOOTER -->
+           <div class="row">
+               <div class="col-md-12">
+                   <ul class="menu_footer">
+                       <li class="item_foot_menu active">
+                           <a class="" href="#">HOME</a>
+                       </li>
+                       <li class="item_foot_menu">
+                           <a href="#">NUESTRA HISTORIA</a>
+                       </li>
+                       <li class="item_foot_menu">
+                           <a href="#">PRODUCTOS</a>
+                       </li>
+                       <li class="item_foot_menu">
+                           <a href="#">CONTACTO</a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+           <!-- SOCIAL MEDIA -->
+           <div class="row">
+               <div class="cont_social">
+                   <ul class="social_media">
+                       <li class="item_social">
+                           <a href="#"><img src="Public/images/icon_instagram.svg" alt="Icono de instagram"></a>
+                       </li>
+                       <li class="item_social">
+                           <a href="#"><img src="Public/images/icon_facebook.svg" alt=""></a>
+                       </li>
+                   </ul>
+                   <ul class="social_pago">
+                       <li class="item_pago">
+                           <img src="Public/images/icon_visa.svg" alt="">
+                       </li>
+                       <li class="item_pago">
+                           <img src="Public/images/icon_mastercard.svg" alt="">
+                       </li>
+                       <li class="item_pago">
+                           <img src="Public/images/icon_paypal.svg" alt="">
+                       </li>
+                   </ul>
+               </div>
+           </div>
+           <!-- LEGALES -->
+           <div class="row legales text-center">
+               <div class="col-md-12">
+                   <p> &reg; 2022 Derechos Reservados <a class="aviso_p" href="#">AVISO DE PRIVACIDAD</a></p>
+               </div>
+           </div>
         </div>
     </footer>
+
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="Public/js/main.js"></script>
