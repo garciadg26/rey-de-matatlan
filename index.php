@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Rey de Mazatlán - Mezcal Artezanal</title>
+    <?php
+        $title = "El Rey de Mazatlán - Mezcal Artezanal";
+        $description = "El Rey De Matatlán es una empresa 100% oaxaqueña en la producción artesanal de un mezcal único como nuestros productos";
+
+        include_once "Public/includes/head.php";
+        include_once "Public/includes/favicon.php";
+    ?>
     <!-- ESTILOS SLIDER -->
     <link rel="stylesheet" href="Public/css/owl.carousel.min.css">
     <link rel="stylesheet" href="Public/css/slide.css?ver=1.1.1">
-    <?php
-        include_once "Public/includes/head.php";
-    ?>
-
 </head>
 <body>
     <!-- MENÚ PRINCIPAL -->
@@ -68,7 +67,7 @@
             <img src="Public/images/pleca_blanca_footer.svg" alt="">
         </div>
         <div class="row contain_banner">
-            <div class="image_banner">
+            <div class="image_banner img_banner_lg">
                 <img class="mask img-fluid" src="Public/images/El-rey-de-matatlan-mezcal-1l-banner.jpg" alt="El Rey de Matatlán mezcal de 1 litro">
             </div>
             <div class="image_banner img_banner_sm">
@@ -80,7 +79,7 @@
             <div class="image_banner img_banner_sm">
                 <img class="mask img-fluid" src="Public/images/El-rey-de-mezcal-matatlan-reserva-de-la-casa-banner.jpg" alt="El Rey de Matatlán mezcal mezcal reserva de la casa">
             </div>
-            <div class="image_banner">
+            <div class="image_banner img_banner_lg">
                 <img class="mask img-fluid" src="Public/images/El-rey-de-mezcal-matatlan-madrecuixe-banner.jpg" alt="El Rey de Matatlán mezcal mezcal madrecuixe">
             </div>
         </div>

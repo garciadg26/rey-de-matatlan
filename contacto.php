@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - El Rey de Mazatlán</title>
     <?php
+        $title = "Contacto - El Rey de Mazatlán";
+        $description = "El Rey De Matatlán es una empresa 100% oaxaqueña en la producción artesanal de un mezcal único como nuestros productos";
+
         include_once "Public/includes/head.php";
+        include_once "Public/includes/favicon.php";
     ?>
 </head>
 <body>
@@ -30,7 +30,7 @@
     <section id="form_ctc">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 offset-md-4">
+                <div class="col-md-6 offset-md-3">
                     <form id="formulario" class="form_general formulario" action="">
                         <label for="email">Información de contacto</label><br>
                         <!-- Grupo: Nombre -->

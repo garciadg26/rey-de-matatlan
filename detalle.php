@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joven Espadín - El Rey de Mazatlán</title>
-    <!-- FONTS -->
     <?php
+        $title = "Joven Espadín - El Rey de Mazatlán";
+        $description = "El Rey De Matatlán es una empresa 100% oaxaqueña en la producción artesanal de un mezcal único como nuestros productos";
+
         include_once "Public/includes/head.php";
+        include_once "Public/includes/favicon.php";
     ?>
 </head>
 <body>
@@ -113,7 +112,7 @@
                 <!-- PRODUCTO RELACIONADO 01 -->
                 <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
                     <div class="cont_p_indv">
-                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
                         <h6 class="nom_producto">Joven espadín</h6>
                         <ul class="lista_ml_producto">
                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -122,7 +121,7 @@
                             <li class="item_ml_producto">50ML</li>
                         </ul>
                         <div class="cont_btn">
-                            <a class="btn_g btn_principal" href="detalle.html">Ver más 
+                            <a class="btn_g btn_principal" href="detalle.php">Ver más 
                                 <img src="Public/images/vector_flecha_btn.svg" alt="">
                             </a>
                         </div>
@@ -131,7 +130,7 @@
                 <!-- PRODUCTO 01 -->
                 <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
                     <div class="cont_p_indv">
-                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
                         <h6 class="nom_producto">Añejo</h6>
                         <ul class="lista_ml_producto">
                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -141,7 +140,7 @@
                             <li class="item_ml_producto">50ML</li>
                         </ul>
                         <div class="cont_btn">
-                            <a class="btn_g btn_principal" href="detalle.html">Ver más 
+                            <a class="btn_g btn_principal" href="detalle.php">Ver más 
                                 <img src="Public/images/vector_flecha_btn.svg" alt="">
                             </a>
                         </div>
@@ -150,7 +149,7 @@
                 <!-- PRODUCTO 01 -->
                 <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
                     <div class="cont_p_indv">
-                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
                         <h6 class="nom_producto">Reposado con gusano</h6>
                         <ul class="lista_ml_producto">
                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -160,7 +159,7 @@
                             <li class="item_ml_producto">50ML</li>
                         </ul>
                         <div class="cont_btn">
-                            <a class="btn_g btn_principal" href="detalle.html">Ver más 
+                            <a class="btn_g btn_principal" href="detalle.php">Ver más 
                                 <img src="Public/images/vector_flecha_btn.svg" alt="">
                             </a>
                         </div>
@@ -169,7 +168,7 @@
                 <!-- PRODUCTO 01 -->
                 <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
                     <div class="cont_p_indv">
-                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
                         <h6 class="nom_producto">Gran reserva</h6>
                         <ul class="lista_ml_producto">
                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -180,7 +179,7 @@
                             <li class="item_ml_producto">50ML</li>
                         </ul>
                         <div class="cont_btn">
-                            <a class="btn_g btn_principal" href="detalle.html">Ver más 
+                            <a class="btn_g btn_principal" href="detalle.php">Ver más 
                                 <img src="Public/images/vector_flecha_btn.svg" alt="">
                             </a>
                         </div>

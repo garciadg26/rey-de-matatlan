@@ -44,7 +44,7 @@ function animateProductScroll(){
     });
 }
 
-/*=============== MENÚ PRINCIPAL ===============*/
+/*=============== NAV BAR - ACTIVE / FOOTER MENÚ - ACTIVE  ===============*/
 function menuActive(){
     const header = document.getElementById('menu_dark');
 
@@ -69,31 +69,51 @@ function menuActive(){
         /* CAMBIO DE COLOR HEADER */
         header.classList.add('color_white'); 
     } 
-    
+    // INFORMACIÓN DETALLE
+    if ( document.URL.includes("detalle.php") ) {
+        $('.navbar-nav li, .menu_footer li').removeClass("active");
+        $('.navbar-nav li:nth-child(4), .menu_footer li:nth-child(3)').addClass("active");
+    } 
+    // INFORMACIÓN DETALLE
+    if ( document.URL.includes("detalle.php") ) {
+        $('.navbar-nav li, .menu_footer li').removeClass("active");
+        $('.navbar-nav li:nth-child(4), .menu_footer li:nth-child(3)').addClass("active");
+    } 
+    // INFORMACIÓN CARRITO
+    if ( document.URL.includes("carrito.php") ) {
+        $('.navbar-nav li, .menu_footer li').removeClass("active");
+        $('.navbar-nav li:nth-child(4), .menu_footer li:nth-child(3)').addClass("active");
+    } 
     // INFORMACIÓN DE TU CUENTA
-    if ( document.URL.includes("informacion-cuenta.php") ) {    
-        $('.cont_pasos_cuenta li').removeClass("active");
-        $(".cont_pasos_cuenta li:nth-child(1)").addClass("active");
+    if ( document.URL.includes("informacion-cuenta.php") ) {
+        $('.cont_pasos_cuenta li, .navbar-nav li, .menu_footer li').removeClass("active");
+        $(".cont_pasos_cuenta li:nth-child(1), .navbar-nav li:nth-child(4), .menu_footer li:nth-child(3)").addClass("active");
         console.log('Estoy en el menu de información de la cuenta');
     } 
     // INFORMACIÓN ENVIOS
     if ( document.URL.includes("envios.php") ) {    
-        $('.cont_pasos_cuenta li').removeClass("active");
-        $(".cont_pasos_cuenta li:nth-child(2)").addClass("active");
+        $('.cont_pasos_cuenta li, .navbar-nav li, .menu_footer li').removeClass("active");
+        $(".cont_pasos_cuenta li:nth-child(2), .navbar-nav li:nth-child(4), .menu_footer li:nth-child(3)").addClass("active");
         console.log('Estoy en el menu de información de la cuenta');
     } 
     // INFORMACIÓN PAGOS
     if ( document.URL.includes("pagos.php") ) {    
-        $('.cont_pasos_cuenta li').removeClass("active");
-        $(".cont_pasos_cuenta li:nth-child(3)").addClass("active");
+        $('.cont_pasos_cuenta li, .navbar-nav li, .menu_footer li').removeClass("active");
+        $(".cont_pasos_cuenta li:nth-child(3), .navbar-nav li:nth-child(4), .menu_footer li:nth-child(3)").addClass("active");
         console.log('Estoy en el menu de información de la cuenta');
     } 
-    // INFORMACIÓN PAGOS
+    // INFORMACIÓN CONTACTO
     if ( document.URL.includes("contacto.php") ) {    
         $('.navbar-nav li, .menu_footer li').removeClass("active");
         $('.navbar-nav li:nth-child(5), .menu_footer li:nth-child(4)').addClass("active");
         console.log('Estoy en el menu de contacto');
-    } 
+    }
+    // INFORMACIÓN AVISO PRIVACIDAD
+    if ( document.URL.includes("aviso-privacidad.php") ) {    
+        $('.navbar-nav li, .menu_footer li').removeClass("active");
+        $('.navbar-nav li:nth-child(5), .menu_footer li:nth-child(4)').addClass("active");
+        console.log('Estoy en el aviso de privacidad');
+    }
 }
 
 

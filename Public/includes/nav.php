@@ -37,7 +37,7 @@
                 </ul>
                 <!-- MENÚ OPCIONES -->
                 <ul class="navbar-nav mt-2 align-items-center">
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="index.php">HOME</a>
                     </li>
                     <li class="nav-item">
@@ -48,7 +48,7 @@
                             <div class="logo_menu"></div>
                         </a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="productos.php">PRODUCTOS</a>
                     </li>
                     <li class="nav-item">

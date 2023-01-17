@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos - El Rey de Mazatlán</title>
     <?php
+        $title = "Productos - El Rey de Mazatlán";
+        $description = "El Rey De Matatlán es una empresa 100% oaxaqueña en la producción artesanal de un mezcal único como nuestros productos";
+
         include_once "Public/includes/head.php";
-    ?>  
+        include_once "Public/includes/favicon.php";
+    ?> 
 </head>
 <body>
     <?php
@@ -62,7 +62,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
                                         <h6 class="nom_producto">Joven espadín</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -82,7 +82,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
                                         <h6 class="nom_producto">Reposado con gusano</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -102,7 +102,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
                                         <h6 class="nom_producto">Añejo</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -122,7 +122,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
                                         <h6 class="nom_producto">Gran reserva</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -146,7 +146,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Punta espadín</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -166,7 +166,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Reposado con gusano</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -186,7 +186,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Añejo</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -206,7 +206,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Gran reserva</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -231,7 +231,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Punta espadín</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -251,7 +251,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Reposado con gusano</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -271,7 +271,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Añejo</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -291,7 +291,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Gran reserva</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -316,7 +316,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Punta espadín</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -336,7 +336,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Reposado con gusano</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -356,7 +356,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Añejo</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -376,7 +376,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Gran reserva</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -401,7 +401,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Punta espadín</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -421,7 +421,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Reposado con gusano</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -441,7 +441,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Añejo</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->
@@ -461,7 +461,7 @@
                                 <!-- PRODUCTOS INDIV -->
                                 <div class="col-xl-3 col-lg-6 col-md-6 col-6">
                                     <div class="cont_p_indv">
-                                        <img class="mask" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
+                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">
                                         <h6 class="nom_producto">Gran reserva</h6>
                                         <ul class="lista_ml_producto">
                                             <!-- COLOCAR CICLO - REGISTRO LITROS -->

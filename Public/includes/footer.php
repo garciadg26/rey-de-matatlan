@@ -11,13 +11,13 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="menu_footer">
-                        <li class="item_foot_menu">
+                        <li class="item_foot_menu active">
                             <a class="" href="index.php">HOME</a>
                         </li>
                         <li class="item_foot_menu">
                             <a href="nuestra-historia.php">NUESTRA HISTORIA</a>
                         </li>
-                        <li class="item_foot_menu active">
+                        <li class="item_foot_menu">
                             <a href="productos.php">PRODUCTOS</a>
                         </li>
                         <li class="item_foot_menu">
@@ -68,4 +68,5 @@
     <!-- BOOTSTRAP -->
     <script type="text/javascript" src="Public/js/bootstrap.min.js"></script>
     <!-- MAIN -->
-    <script type="text/javascript" src="Public/js/main.js"></script>
+    <script type="text/javascript" src="Public/js/main.js?ver=1.1.0"></script>
+    

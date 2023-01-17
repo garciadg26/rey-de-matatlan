@@ -372,6 +372,7 @@ body{
     /* SLIDER */
 .slider-item01{
     background-image: url("../images/Slider-homepage-para-todo-mal-mezcal.jpg");
+    /*background-image: url("../images/Slider-homepage-para-todo-mal-mezcal.jpg");*/
 }
 .slider-item02{
     background-image: url("../images/Slider-homepage-quien-mezcal-no-a-bebido.jpg");
@@ -767,6 +768,7 @@ ul.menu_footer li.active > a{
     font-family: var(--font-bebas-kai);
     color: var(--color-black);
     background-color: transparent;
+    border-radius: 0px;
     border: none;
     border-bottom: 1px solid var(--color-black);
 }
@@ -854,7 +856,7 @@ button[type=submit]{
     color: var(--color-gris-claro);
 }
 .cont_p_indv .cont_btn{
-    margin: 12px 0px;
+    margin: 12px 0px 28px 0px;
 }
 .item_ml_producto:not(:last-child)::after{
     position: absolute;
@@ -973,11 +975,20 @@ button[type=submit]{
 .cont_tit_page{
     padding: 20px 0px;
 }
+#contenido_value{
+    border: 1px solid var(--color-black);
+    width: 140px;
+    padding: 8px 11px;
+    background-color: var(--color-white);
+}
 .cont_cout{
     width: 100px;
     padding: 4px 0px 4px 4px;
     margin: 0 auto;
     border: 1px solid var(--color-black);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .cont_cout .qty{
     text-align: center;
@@ -987,6 +998,7 @@ button[type=submit]{
 .cont_cout .qty-minus, .cont_cout .qty-plus{
     border: none;
     background-color: #fff;
+    color: var(--color-black);
 }
 .cont_cout .qty::-webkit-outer-spin-button,
 .cont_cout .qty::-webkit-inner-spin-button {
@@ -1312,8 +1324,8 @@ p.precio_total{
 }
 .formulario__validacion-estado {
     position: absolute;
-    right: 28px;
-    top: 8px;
+    right: 16px;
+    top: 10px;
     z-index: 100;
     font-size: 16px;
     opacity: 0;
@@ -1376,6 +1388,7 @@ p.precio_total{
     width: 60px;
     height: auto;
     transition: all 0.6s;
+    z-index: 99;
 }
 .cont_whatsapp:hover{
     transform: scale(1.1);
@@ -1668,9 +1681,12 @@ p.precio_total{
     .vector_oaxaca_slider {
         width: 100px;
     }
+    .col_vector img {
+        margin-bottom: 26px;
+    }
     .scroll_icon::before {
         margin-top: 20px;
-        left: 24%;
+        left: 22%;
     }
     #historia_descrip .col-md-6 img:nth-child(1){
         width: 70%;
@@ -1705,7 +1721,7 @@ p.precio_total{
         font-size: 10vw;
     }
     .cont_productos_der {
-        padding-left: 30px;
+        padding-left: 15px;
         border-right: 0px solid #000000;
         border-left: 0px solid #000000;
     }
@@ -1742,8 +1758,38 @@ p.precio_total{
     #banner_images > div.row .image_banner{
         margin-bottom: 20px;
     }
-    #input_search{
-
+    .img_banner_lg{
+        display: none;
+    }
+    #input_news{
+        width: 180px;
+    }
+    #historia_m_organico .col_txt{
+        margin-top: 20px;
+    }
+    #historia_m_organico .col_txt .txt_general{
+        margin-bottom: 40px;
+    }
+    .cont_whatsapp{
+        width: 50px;
+    }
+    .menu_footer li {
+        text-align: center;
+        margin: 0px 6px;
+    }
+    .btn_g {
+        padding: 12px 8px;
+        font-size: 1em;
+    }
+    .cont_detalle_product {
+        padding: 0px 15px;
+    }
+    .cont_p_indv .btn_principal{
+        margin-bottom: 24px;
+    }
+    .cont_social {
+        margin-left: 15%;
+        width: 70%;
     }
 }
 
