@@ -158,6 +158,7 @@ body{
 .menu_desktop_bn{
     width: 100%;
     position: fixed;
+    background-color: var(--color-white);
     z-index: 1;
 }
 .nav-link{
@@ -169,6 +170,9 @@ body{
 }
 .logo_movil{
     display: none;
+}
+.carrito_space_dk{
+    background-color:red;
 }
     /* ITEM ACTIVO */
 .navbar-collapse{
@@ -218,12 +222,15 @@ body{
     border-radius: 50%;
     padding-top: 3px;
     text-align: center;
-    right: 2px;
+    right: -16px;
     margin-top: -8px;
 }
-.navbar-toggler{
-    color: var(--color-white);
+.menu_desktop_bn .navbar-toggler{
+    color: var(--color-black);
     font-size: 1.8em;
+}
+.color_white .navbar-toggler{
+    color: var(--color-white);
 }
 
     /* MENÚ TEXTO BLANCO */
@@ -244,6 +251,9 @@ body{
 }
 .color_white .navbar-nav > .active::before{
     background-color: var(--color-white);
+}
+.color_white{
+    background-color: transparent;
 }
 
 /*=============== HEADER ===============*/
@@ -353,6 +363,7 @@ body{
 #banner_images > div.row{
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
 .img_banner_sm{
     margin-top: 200px;
@@ -363,7 +374,7 @@ body{
     background-image: url("../images/Slider-homepage-para-todo-mal-mezcal.jpg");
 }
 .slider-item02{
-    background-image: url("../images/Slider-homepage-para-todo-mal-mezcal.jpg");
+    background-image: url("../images/Slider-homepage-quien-mezcal-no-a-bebido.jpg");
 }
 .tit_slider{
     font-family: var(--font-broadsheet);
@@ -534,7 +545,7 @@ input[type=submit]{
 }
 
 ::-webkit-input-placeholder { /* Edge */
-    color: var(--color-black);
+    color: var(--color-gris-dark);
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
@@ -572,12 +583,19 @@ footer{
     padding: 60px 0px;
     background-color: var(--color-black);
 }
+#footer .social_media li:nth-child(1){
+    margin-right: 12px;
+}
+#footer .item_social a{
+    padding: 8px;
+}
 .menu_footer{
     margin-top: 40px;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-left: 0;
 }
 .menu_footer li{
     margin: 0px 24px;
@@ -606,7 +624,7 @@ ul.menu_footer li.active > a{
     display: flex;
     flex-direction: row;
 }
-.social_pago li, .social_media li{
+.social_pago li{
     margin: 0px 12px;
 }
 .item_social a img, .social_pago img{
@@ -739,6 +757,7 @@ ul.menu_footer li.active > a{
     /* SEARCH */
 .cont_buscador > div{
     padding: 0;
+    text-align: right;
 }
 #input_search{
     position: relative;
@@ -925,6 +944,7 @@ button[type=submit]{
     font-size: 1.3em;
 }
 .cont_btn_detalle{
+    
     border-top: 1px solid var(--color-black);
 }
 .cont_btn_detalle .cont_btn{
@@ -1130,25 +1150,33 @@ span.mx_span_cuenta{
     font-size: 1em;
     padding: 6px 0px 0px 12px;
 }
-#form_cuenta label{
+.form_general label{
     font-family: var(--font-griffon);
     font-size: .9em;
 }
 .fila_direccion_envio{
     margin-top: 22px;
 }
-#form_cuenta input{
+.form_general input{
     font-family: var(--font-bebas-kai);
     margin-bottom: 16px;
     padding: 6px 12px;
     width: 100%;
 }
-#form_cuenta input[type=submit]{
+.form_general input[type=submit]{
     margin-left: 4px;
+    font-style: normal;
 }
-#form_cuenta input::placeholder{
+.form_general input::placeholder, .form_general textarea::placeholder{
     font-family: var(--font-bebas-kai);
     font-size: 0.9em;
+    color: var(--color-gris-claro);
+}
+.form_general textarea{
+    font-family: var(--font-bebas-kai);
+    width: 100%;
+    padding: 6px 12px;
+    height: 120px;
 }
     /* LADO DERECHO */
 .cont_producto_agregado{
@@ -1205,7 +1233,7 @@ p.precio_total{
     border-top: 1px solid var(--color-black);
     margin-left: 56px;
 }
-#info_cuenta .cont_btn_detalle{
+.cont_info_cuenta .cont_btn_detalle{
     margin-left: 46px;
     width: 105%;
 }
@@ -1230,7 +1258,7 @@ p.precio_total{
     font-size: 1.2em;
     margin-right: 10px;
 }
-#enviar .cont_btn_datos_e{
+#enviar .cont_btn_datos_e, #pagos .cont_btn_datos_e{
     border-top: 1px solid #000;
     text-align: right;
     margin-right: 10%;
@@ -1238,6 +1266,10 @@ p.precio_total{
 }
 
 /* __PAGO__ */
+/* __ENVIAR__ */
+#pagos{
+    padding: 40px 0px;
+}
 .metodo_pago{
     margin-top: 40px;
 }
@@ -1264,7 +1296,90 @@ p.precio_total{
     margin-left: 12px;
 }
 
+/* __CONTÁCTANOS__ */
+#form_ctc{
+    padding: 40px 0px;
+}
 
+/* __MENSAJE DE ERROR__ */
+.formulario__input-error {
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+.formulario__input-error-activo {
+	display: block;
+}
+.formulario__validacion-estado {
+    position: absolute;
+    right: 28px;
+    top: 8px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+.formulario__mensaje, .formulario__captcha{
+	height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+.formulario__mensaje-activo {
+	display: block;
+}
+.formulario__mensaje-exito {
+	font-size: 14px;
+	color: #119200;
+	display: none;
+}
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-input{
+    position: relative;
+}
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
+
+/* __AVISO DE PRIVACIDAD__ */
+#aviso_privacidad{
+    padding: 40px 0px;   
+}
+#aviso_privacidad h2.subTit{
+    text-align: left;
+}
+
+/* __ICON WHATSAPP__ */
+.cont_whatsapp {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    width: 60px;
+    height: auto;
+    transition: all 0.6s;
+}
+.cont_whatsapp:hover{
+    transform: scale(1.1);
+}
 
 /* __RESPONSIVE WIDTH__ */
 
@@ -1277,8 +1392,18 @@ p.precio_total{
         margin-left: 24px;
     }
 }
-    
-    /* Si < 991 */
+
+/* Si < 1280 */
+@media only screen and (max-width:1280px) {
+    .image_banner, .img_banner_sm{
+        text-align: center;
+    }
+    .image_banner img, .img_banner_sm img{
+        width: 90%;
+    }
+}
+
+    /* Si < 1200 */
 @media only screen and (max-width:1200px) {
     #historia_m_organico .col_tit {
         padding: 0px 30px;
@@ -1297,6 +1422,16 @@ p.precio_total{
     }
     .tooltip_img {
         right: -4px;
+    }
+    .back_pleca {
+        height: 20vh;
+    }
+    .img_banner_sm{
+        display: none;
+    }
+    #productos_relacionados .tit_general{
+        text-align: center;
+        margin-bottom: 40px;
     }
 }
     /* Si < 991 */
@@ -1318,17 +1453,27 @@ p.precio_total{
     .navbar-collapse{
         position: relative;
     }
-    .menu_desktop_bn{
+    .color_white{
         background-color: rgba(0,0,0,0.9);
         transition: all 0.6s;
+    }
+    .navbar{
+        padding: 0;
     }
     .navbar_social{
         justify-content: center;
     }
+    .navbar-collapse{
+        padding: 12px 0px;
+        transition: all 0.6s ease-in-out;
+    }
     .list_carrito{
         position: absolute;
-        top: 9px;
-        right: 16px;
+        top: 32px;
+        right: 80px;
+    }
+    .scroll-header .list_carrito{
+        top: 26px;
     }
     .tool_carrito{
         right: -16px;
@@ -1391,11 +1536,17 @@ p.precio_total{
     #historia_frase .tit_secundario{
         font-size: 3em;
     }
+    .metodo_pago{
+        margin-bottom: 60px;
+    }
     /* PRODUCTOS SCROLL MENÚ */
     .scroll-menu {
         position: relative;
         top: 0px!important;
         width: 100%;
+    }
+    .space_top{
+        height: 100px;
     }
     .cont_producto_agregado {
         margin-left: 0px;
@@ -1413,6 +1564,19 @@ p.precio_total{
     }
     .cont_contenido > div{
         text-align: center;
+    }
+    .cont_buscador > div{
+        text-align: left;
+    }
+    .form_search{
+        margin-bottom: 40px;
+    }
+    #input_search{
+        width: calc(96% - 49px)
+    }
+    .cont_info_cuenta .cont_btn_detalle{
+        margin-left: 24px;
+        width: 100%;
     }
 }
 
@@ -1459,6 +1623,35 @@ p.precio_total{
     #historia_m_organico .col_txt {
         padding: 20px 16px 0px 16px;
     }
+    #historia_frase {
+        padding-bottom: 60px;
+    }
+    #historia_frase .col-md-8 {
+        border-top: 0px solid var(--color-black);
+        padding: 0px;
+    }
+    #historia_frase .row > div {
+        height: 140px;
+    }
+    #historia_frase .col-md-4 {
+        align-content: center;
+        padding: 0px;
+    }
+    #historia_frase .vector_maguey{
+        margin-top: 50px;
+    }
+    #historia_frase .tit_secundario{
+        text-align: center;
+    }
+    .col_tit, .col_txt {
+        border-top: 0px solid var(--color-black);
+    }
+    .col_vector, .col_tit, .col_txt {
+        height: 120px;
+    }
+    .col_vector{
+        height: 80px;
+    }
     .tooltip_img {
         right: 22px;
     }
@@ -1499,14 +1692,14 @@ p.precio_total{
         width: 100%;
     }
     #historia_frase .tit_secundario{
-        font-size: 10vw;
+        font-size: 8vw;
     }
     #historia_frase .col-md-4 {
         padding: 0px 0px 0px 0px;
         align-content: center;
     }
     #historia_frase .row > div{
-        height: 200px;
+        height: 120px;
     }
     h1.tit_secundario_bn {
         font-size: 10vw;
@@ -1542,6 +1735,15 @@ p.precio_total{
     }
     .cont_btn_secu_carrito .cont_btn, .cont_btn_prin_carrito .cont_btn{
         text-align: center;
+    }
+    #banner_images > div.row {
+        flex-wrap: wrap;
+    }
+    #banner_images > div.row .image_banner{
+        margin-bottom: 20px;
+    }
+    #input_search{
+
     }
 }
 
