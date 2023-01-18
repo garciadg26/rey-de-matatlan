@@ -10,7 +10,7 @@
     ?>
     <!-- ESTILOS SLIDER -->
     <link rel="stylesheet" href="Public/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="Public/css/slide.css?ver=1.1.1">
+    <link rel="stylesheet" href="Public/css/slide.css?ver=1.1.2">
 </head>
 <body>
     <!-- MENÚ PRINCIPAL -->
