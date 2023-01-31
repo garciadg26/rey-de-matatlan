@@ -22,6 +22,6 @@
 
     <!-- STYLE -->
     <link rel="stylesheet" href="Public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Public/css/style.css?ver=1.2.11">
+    <link rel="stylesheet" href="Public/css/style.css?ver=1.2.14">
     <!-- ICONS -->
     <link rel="stylesheet" href="Public/css/ionicons.min.css">

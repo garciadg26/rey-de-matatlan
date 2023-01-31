@@ -101,7 +101,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="cont_border_txt">
-                        <h5>El Rey de Matatlán elabora mezcales de sus propios plantíos; pero, hay agaves que  se consiguen buscando en las  montañas y zonas muy empedradas de difícil acceso.</h5>
+                        <p class="txt_general">El Rey de Matatlán elabora mezcales de sus propios plantíos; pero, hay agaves que  se consiguen buscando en las  montañas y zonas muy empedradas de difícil acceso.</p>
                     </div>
                 </div>
             </div>

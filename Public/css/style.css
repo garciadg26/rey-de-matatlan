@@ -42,6 +42,7 @@ h2.subTit{
     text-align: center;
 }
 .tit_general{
+    font-family: var(--font-griffon)!important;
     font-size: 1.44em;
 }
 h2.tit_secundario{
@@ -52,14 +53,14 @@ h2.tit_secundario{
     font-size: 3.5em;
 }
 h1.tit_secundario_bn{
-    font-family: var(--font-broadsheet);
+    font-family: var(--font-broadsheet)!important;
     font-weight: normal;
     font-style: italic;
     color: var(--color-white);
     font-size: 5em;
 }
 .txt_general{
-    font-family: var(--font-bebas-kai);
+    font-family: var(--font-bebas-kai)!important;
     font-size: 1.2rem;
     line-height: 1.4rem;
 }
@@ -1451,7 +1452,7 @@ p.precio_total{
     /* Si < 991 */
 @media only screen and (max-width:991px) {
     .logo_movil{
-        display: block;
+        display: block!important;
     }
     .item_logo_desktop{
         display: none;

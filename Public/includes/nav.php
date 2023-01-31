@@ -10,7 +10,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- MENÚ SOCIAL -->
                 <ul class="navbar_social d-flex ">
-                    <a href="https://instagram.com/elreydematatlan?igshid=YmMyMTA2M2Y=">
+                    <a target="_blank" href="https://instagram.com/elreydematatlan?igshid=YmMyMTA2M2Y=">
                         <li class="item_social">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.037" viewBox="0 0 20 20.037" id="svg_instagram">
                                 <g transform="translate(-452.178 -3151.274)">
@@ -23,7 +23,7 @@
                             </svg>
                         </li>
                     </a>
-                    <a href="https://www.facebook.com/MezcalRDM?mibextid=ZbWKwL">
+                    <a target="_blank" href="https://www.facebook.com/MezcalRDM?mibextid=ZbWKwL">
                         <li class="item_social">
                             <svg xmlns="http://www.w3.org/2000/svg" width="10.364" height="20" viewBox="0 0 10.364 20" id="svg_facebook">
                                 <g transform="translate(-478.324 -3151.136)">

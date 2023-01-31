@@ -31,12 +31,12 @@
                 <div class="cont_social">
                     <ul class="social_media">
                         <li class="item_social">
-                            <a href="https://instagram.com/elreydematatlan?igshid=YmMyMTA2M2Y=">
+                            <a target="_blank" href="https://instagram.com/elreydematatlan?igshid=YmMyMTA2M2Y=">
                                 <img src="Public/images/icon_instagram.svg" alt="Icono de instagram">
                             </a>
                         </li>
                         <li class="item_social">
-                            <a href="https://www.facebook.com/MezcalRDM?mibextid=ZbWKwL">
+                            <a target="_blank" href="https://www.facebook.com/MezcalRDM?mibextid=ZbWKwL">
                                 <img src="Public/images/icon_facebook.svg" alt="">
                             </a>
                         </li>
