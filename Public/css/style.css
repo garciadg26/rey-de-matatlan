@@ -822,7 +822,7 @@ button[type=submit]{
     background-size: cover;
 }
     /* PRODUCTO INDIVIDUAL */
-.cont_list_product{
+.cont_list_product{ 
     margin: 24px 0px;
     padding: 22px 0px 12px 0px;
     border-bottom: 1px solid var(--color-black);
@@ -832,9 +832,13 @@ button[type=submit]{
 }
 .cont_list_product .row .col-md-3{
     margin: 16px 0px;
-}
+} 
 .cont_p_indv{
     text-align: center;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }    
 .nom_producto{
     margin: 12px 0px;
@@ -874,6 +878,45 @@ button[type=submit]{
     width: 100%;
     height: 170px;
 }
+#producto_detalle .btn_g{
+    font-family: var(--font-broadsheet);
+    font-weight: 400;
+    font-style: italic;
+    background-color: var(--color-white);
+}
+#producto_detalle .tit_detalle_descrip{
+    text-align: center;
+}
+#producto_detalle .btn_principal{
+    color: var(--color-oak-claro);
+    transition: all 0.3s;
+}
+#producto_detalle input[type=submit]{
+    padding: 8px 84px 8px 32px;
+}
+#producto_detalle .col-md-6:nth-child(2) .cont_btn::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 10px;
+    right: 10px;
+    top: 18px;
+    background-image: url('../images/vector_flecha_btn.svg');
+    z-index: 1;
+    transition: all 0.3s;
+}
+#producto_detalle .col-md-6:nth-child(2) .cont_btn:hover::before{
+    right: 0px;
+}
+#producto_detalle .btn_principal:hover{
+    color: var(--color-oak-claro);
+    background-color: #F4F4F4;
+    text-decoration: none;
+}
+
+/* Public/images/vector_flecha_btn.svg */
+
+
 
     /* BREADCRUMB */
 .breadcrumb{
@@ -979,7 +1022,7 @@ button[type=submit]{
 }
 #contenido_value{
     border: 1px solid var(--color-black);
-    width: 140px;
+    width: 100%;
     padding: 8px 11px;
     background-color: var(--color-white);
 }
@@ -1016,6 +1059,7 @@ button[type=submit]{
 
     /* TABLA CARRITO */
 .fila_carrito img{
+    width: 80px;
     border-radius: 4px;
 }
 .table thead th{
@@ -1278,7 +1322,10 @@ p.precio_total{
     margin-right: 10%;
     padding-top: 20px;
 }
-
+.cont_producto_agregado > div:nth-child(1) img{
+    width: 80px;
+    height: auto;
+}
 /* __PAGO__ */
 /* __ENVIAR__ */
 #pagos{
