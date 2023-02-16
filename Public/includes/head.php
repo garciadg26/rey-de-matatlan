@@ -1,6 +1,6 @@
-    
+
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $title; ?></title>
     <meta name="title" content="<?php echo $title; ?>" />
@@ -16,7 +16,7 @@
     <meta property="og:url" content="https://mezcalelrey.com/">
     <meta property="og:type" content="article">
     <meta property="og:description" content="<?php echo $description; ?>">
-    
+
     <!-- FONTS -->
     <link rel="stylesheet" href="https://use.typekit.net/zig3fxc.css">
 
@@ -25,3 +25,4 @@
     <link rel="stylesheet" href="Public/css/style.css?ver=1.2.43">
     <!-- ICONS -->
     <link rel="stylesheet" href="Public/css/ionicons.min.css">
+    <script src="assets/assets/js/jquery-1.9.1.min.js"></script>

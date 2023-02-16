@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
     <?php
         $title = "Carrito - El Rey de Mazatlán";
         $description = "El Rey De Matatlán es una empresa 100% oaxaqueña en la producción artesanal de un mezcal único como nuestros productos";
@@ -69,36 +72,27 @@
     		@$subtotal=$row7['subtotal'];
     		$total=$subtotal+$envio;
     ?>
+
+
     <script type="text/javascript">
-    	function restar(pedido, producto){
-    		$.ajax({
-    			type: 'POST',
-    			url: 'restar.php',
-    			data: { id: pedido , prod: producto },
-    			// Mostramos un mensaje con la respuesta de PHP
-    			success: function(data) {
-    			$('#bp_1').css('display','none');
-    			$('#bp_2').css('display','block');
-    			$('#bp_2').html(data);
-    			$('#bp_2').focus();
-    			}
-    		});
-    	}
+
     	function sumar(pedido, producto){
         $.ajax({
     			type: 'POST',
     			url: 'sumar.php',
     			data: { id: pedido , prod: producto },
     			// Mostramos un mensaje con la respuesta de PHP
+
     			success: function(data) {
-    			$('#bp_1').css('display','none');
-    			$('#bp_2').css('display','block');
-    			$('#bp_2').html(data);
-    			$('#bp_2').focus();
+      			$('#bp_1').css('display','none');
+      			$('#bp_2').css('display','none');
+      			$('#bp_2').html(data);
+      			$('#bp_2').focus();
     			}
     		});
     	}
     </script>
+
 </head>
 <body>
     <?php
@@ -124,6 +118,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <!-- TABLA DE PRODUCTOS -->
+                    <div id="bp_1">
                     <div class="table-responsive">
                         <table class="table">
                             <thead>
@@ -137,9 +132,9 @@
                               </tr>
                             </thead>
                             <tbody>
+
                             <!-- PRIMERA FILA -->
                             <?php
-                                echo '<div id="bp_1">';
                                 $datos=mysqli_query($conexion, "select * from vin_detalle_pedidos where id_pedido=$folio");
                                   if(mysqli_num_rows($datos)>0){
                                     while ($datos2=mysqli_fetch_array($datos)){
@@ -159,7 +154,7 @@
 
                                         echo '<tr class="fila_carrito">';
                                           echo '<td>';
-                                            echo '<img class="img-fluid" src="Public/images/El-rey-de-mezcal-matatlan-carrito-producto.jpg" alt="">';
+                                            echo '<img class="img-fluid" src="Public/images/'.$imagen.'" alt="">';
                                           echo '</td>';
                                           echo '<td class="tit_carrito">'.$nombre_vino.'</td>';
                                           echo '<td class="txt_carrito">'.$tamano.'</td>';
@@ -168,21 +163,21 @@
                                             echo '<input type="button" value="-" class="qty-minus">';
                                             echo '<input type="number" value="'.$datos2['cantidad'].'" class="qty" min="1">';
                                             //echo '<input type="button" value="+" class="qty-plus">';
-                                            echo '<a href="javascript: sumar('.$folio.','.$datos2['id_vino'].')" class="qty-plus">+</a>';
+                                            echo '<a href="javascript: sumar('.$folio.','.$datos2['id_vino'].');" class="qty-plus">+</a>';
                                           echo '</div>';
                                           echo '</td>';
-                                          echo '<td>$'.$datos2['precio'].'</td>';
-                                          echo '<td>$'.$datos2['subtotal'].'</td>';
+                                          echo '<td>$'.number_format($datos2['precio'],2).'</td>';
+                                          echo '<td>$'.number_format($datos2['subtotal'],2).'</td>';
                                           echo '<td>';
                                             echo '<a href="carrito.php?act=borrar&item='.$datos2['id_detalle'].'&Store=MX&Key=Dev838s&Currency=MXN" class="cont_delet">';
                                               echo '<img src="Public/images/icon_delete.svg" alt="">';
                                             echo '</a>';
                                           echo '</td>';
                                         echo '</tr>';
-                                      echo '</div>';
-                                      echo '<div id="bp_2"></div>';
+
                                     }
                                   }
+
                             ?>
 
 
@@ -190,6 +185,8 @@
                             </tbody>
                         </table>
                     </div>
+                  </div> <!-- CIERRA BLOQUE 1 -->
+                  <div id="bp_2">--</div>
                 </div>
             </div>
             <!-- SUBTOTAL -->
@@ -243,7 +240,7 @@
     ?>
     <!-- FOOTER -->
     <?php
-        include_once "Public/includes/footer.php";
+        //include_once "Public/includes/footer.php";
     ?>
 </body>
 </html>

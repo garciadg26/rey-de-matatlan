@@ -2,7 +2,7 @@
 	include_once "Public/includes/conectar.php";
 	date_default_timezone_set('America/Mexico_City');
 	$hoy=date("Y-m-d");
-	echo @$producto_2=$_POST['prod'];
+	echo 'P '.@$producto_2=$_POST['prod'];
 	echo @$folio_2=$_POST['id'];
 
 	// ACCIÓN
@@ -36,7 +36,7 @@
 				$sql8 = "select * from vin_tamanos where id_tamano=".$datos2['id_tamano']."";
 				$result8 = mysqli_query($conexion, $sql8);
 				@$row8=mysqli_fetch_array($result8,MYSQLI_ASSOC);
-				@$tamano=$row8['tamano'];
+				echo 'T'.@$tamano=$row8['tamano'];
 
 
 					echo '<tr class="fila_carrito">';

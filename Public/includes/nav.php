@@ -1,3 +1,22 @@
+<?php
+    include_once "Public/includes/conectar.php";
+    date_default_timezone_set('America/Mexico_City');
+    $hoy=date("Y-m-d");
+    @$ip=$_SERVER["REMOTE_ADDR"];
+
+    // FOLIO
+    $sql3 = "select id_pedido from vin_pedidos where fecha='$hoy' and ip='$ip' and finalizada='no' ";
+    $result3 = mysqli_query($conexion, $sql3);
+    @$row3=mysqli_fetch_array($result3,MYSQLI_ASSOC);
+    @$folio=$row3['id_pedido'];
+
+    // CANTIDAD
+    $sql6 = "select COUNT(*) as cantidad from vin_detalle_pedidos where id_pedido=$folio ";
+    $result6 = mysqli_query($conexion, $sql6);
+    @$row6=mysqli_fetch_array($result6,MYSQLI_ASSOC);
+    @$cantidad=$row6['cantidad'];
+
+?>
     <!--=============== MENÚ ESCRITORIO ===============-->
     <div id="menu_dark" class="menu_desktop_bn">
         <nav class="navbar navbar-expand-lg">
@@ -63,9 +82,14 @@
                     <a id="icon_carrito" href="#"><img src="" alt="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="19.661" height="20.037" viewBox="0 0 19.661 20.037" id="svg_facebook">
                             <path class="vector_carrito" d="M1314.912,79.611a1.8,1.8,0,1,1,1.278-.527A1.742,1.742,0,0,1,1314.912,79.611Zm10.031,0a1.8,1.8,0,1,1,1.279-.527A1.745,1.745,0,0,1,1324.942,79.611Zm-11.335-16.552,2.759,5.718h7.223l3.134-5.718Zm-.752-1.5h14.77a.956.956,0,0,1,.877.527.993.993,0,0,1,0,1.053l-3.385,6.094a2.252,2.252,0,0,1-.715.765,1.722,1.722,0,0,1-.965.288h-7.6l-1.4,2.609h12.313v1.5H1314.66a1.681,1.681,0,0,1-1.517-.7,1.443,1.443,0,0,1,.013-1.58l1.6-2.958-3.811-8.075h-1.956v-1.5h2.934Zm3.511,7.223h0Z" transform="translate(-1308.993 -59.574)" fill="#fff"/>
-                        </svg>    
+                        </svg>
                     </a>
-                    <span class="tool_carrito">12</span>
+                    <?php
+                      if($cantidad>0){
+                        echo '<a href="carrito.php"><span class="tool_carrito">'.$cantidad.'</span></a>';
+                      }
+                    ?>
+
                 </li>
             </ul>
         </nav>

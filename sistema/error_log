@@ -1,0 +1,342 @@
+[23-Mar-2020 13:51:33 America/Chicago] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home1/cedrofilms/hbq.mx/sistema/index.php on line 124
+[23-Mar-2020 13:51:33 America/Chicago] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home1/cedrofilms/hbq.mx/sistema/index.php on line 124
+[23-Mar-2020 13:51:33 America/Chicago] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home1/cedrofilms/hbq.mx/sistema/index.php on line 124
+[23-Mar-2020 13:56:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cedrofilms/hbq.mx/include/conectar.php:7
+Stack trace:
+#0 /home1/cedrofilms/hbq.mx/sistema/index.php(124): include()
+#1 {main}
+  thrown in /home1/cedrofilms/hbq.mx/include/conectar.php on line 7
+[23-Mar-2020 13:57:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cedrofilms/hbq.mx/include/conectar.php:7
+Stack trace:
+#0 /home1/cedrofilms/hbq.mx/sistema/index.php(126): include()
+#1 {main}
+  thrown in /home1/cedrofilms/hbq.mx/include/conectar.php on line 7
+[23-Mar-2020 14:11:18 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'cedrofil_bouthot'@'localhost' (using password: YES) in /home1/cedrofilms/hbq.mx/include/conectar.php on line 10
+[23-Mar-2020 14:11:54 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'cedrofil_devtip2'@'localhost' (using password: YES) in /home1/cedrofilms/hbq.mx/include/conectar.php on line 10
+[23-Mar-2020 14:12:19 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'cedrofil_devtip2'@'localhost' (using password: YES) in /home1/cedrofilms/hbq.mx/include/conectar.php on line 10
+[23-Mar-2020 14:12:41 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'cedrofil_devtip2'@'localhost' (using password: YES) in /home1/cedrofilms/hbq.mx/include/conectar.php on line 10
+[23-Mar-2020 14:14:59 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'cedrofil_devtip2'@'162.215.249.18' (using password: YES) in /home1/cedrofilms/hbq.mx/include/conectar.php on line 10
+[23-Mar-2020 14:16:09 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'cedrofil_bouthot'@'162.215.249.18' (using password: YES) in /home1/cedrofilms/hbq.mx/include/conectar.php on line 10
+[23-Mar-2020 14:16:45 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'cedrofil_devtip2'@'162.215.249.18' (using password: YES) in /home1/cedrofilms/hbq.mx/include/conectar.php on line 10
+[23-Mar-2020 14:17:49 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'cedrofil_devtip2'@'162.215.249.18' (using password: YES) in /home1/cedrofilms/hbq.mx/include/conectar.php on line 10
+[23-Mar-2020 14:18:53 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'cedrofil_devtip2'@'162.215.249.18' (using password: YES) in /home1/cedrofilms/hbq.mx/include/conectar.php on line 10
+[23-Mar-2020 14:29:46 America/Chicago] PHP Warning:  include(include/funciones.php): failed to open stream: No such file or directory in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 66
+[23-Mar-2020 14:29:46 America/Chicago] PHP Warning:  include(include/funciones.php): failed to open stream: No such file or directory in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 66
+[23-Mar-2020 14:29:46 America/Chicago] PHP Warning:  include(): Failed opening 'include/funciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 66
+[23-Mar-2020 14:29:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_result() in /home1/cedrofilms/hbq.mx/sistema/menu.php:69
+Stack trace:
+#0 {main}
+  thrown in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 69
+[23-Mar-2020 14:30:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_result() in /home1/cedrofilms/hbq.mx/sistema/menu.php:69
+Stack trace:
+#0 {main}
+  thrown in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 69
+[23-Mar-2020 14:31:17 America/Chicago] PHP Notice:  Undefined index: opcion in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 113
+[23-Mar-2020 14:32:23 America/Chicago] PHP Warning:  include(include/hoteles.php): failed to open stream: No such file or directory in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 115
+[23-Mar-2020 14:32:23 America/Chicago] PHP Warning:  include(include/hoteles.php): failed to open stream: No such file or directory in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 115
+[23-Mar-2020 14:32:23 America/Chicago] PHP Warning:  include(): Failed opening 'include/hoteles.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 115
+[23-Mar-2020 14:32:39 America/Chicago] PHP Notice:  Undefined index: op in /home1/cedrofilms/hbq.mx/sistema/include/hoteles.php on line 5
+[23-Mar-2020 14:32:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home1/cedrofilms/hbq.mx/sistema/include/hoteles.php:16
+Stack trace:
+#0 /home1/cedrofilms/hbq.mx/sistema/menu.php(115): include()
+#1 {main}
+  thrown in /home1/cedrofilms/hbq.mx/sistema/include/hoteles.php on line 16
+[23-Mar-2020 14:33:10 America/Chicago] PHP Notice:  Undefined index: op in /home1/cedrofilms/hbq.mx/sistema/include/hoteles.php on line 5
+[23-Mar-2020 14:33:10 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_result() in /home1/cedrofilms/hbq.mx/sistema/include/hoteles.php:19
+Stack trace:
+#0 /home1/cedrofilms/hbq.mx/sistema/menu.php(115): include()
+#1 {main}
+  thrown in /home1/cedrofilms/hbq.mx/sistema/include/hoteles.php on line 19
+[23-Mar-2020 14:33:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_result() in /home1/cedrofilms/hbq.mx/sistema/include/hoteles.php:19
+Stack trace:
+#0 /home1/cedrofilms/hbq.mx/sistema/menu.php(115): include()
+#1 {main}
+  thrown in /home1/cedrofilms/hbq.mx/sistema/include/hoteles.php on line 19
+[23-Mar-2020 14:34:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_result() in /home1/cedrofilms/hbq.mx/sistema/include/hoteles.php:25
+Stack trace:
+#0 /home1/cedrofilms/hbq.mx/sistema/menu.php(115): include()
+#1 {main}
+  thrown in /home1/cedrofilms/hbq.mx/sistema/include/hoteles.php on line 25
+[23-Mar-2020 14:35:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_result() in /home1/cedrofilms/hbq.mx/sistema/include/hoteles.php:31
+Stack trace:
+#0 /home1/cedrofilms/hbq.mx/sistema/menu.php(115): include()
+#1 {main}
+  thrown in /home1/cedrofilms/hbq.mx/sistema/include/hoteles.php on line 31
+[23-Mar-2020 14:52:56 America/Chicago] PHP Warning:  include(include/slides.php): failed to open stream: No such file or directory in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 116
+[23-Mar-2020 14:52:56 America/Chicago] PHP Warning:  include(include/slides.php): failed to open stream: No such file or directory in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 116
+[23-Mar-2020 14:52:56 America/Chicago] PHP Warning:  include(): Failed opening 'include/slides.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 116
+[23-Mar-2020 14:52:59 America/Chicago] PHP Warning:  include(include/slides.php): failed to open stream: No such file or directory in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 116
+[23-Mar-2020 14:52:59 America/Chicago] PHP Warning:  include(include/slides.php): failed to open stream: No such file or directory in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 116
+[23-Mar-2020 14:52:59 America/Chicago] PHP Warning:  include(): Failed opening 'include/slides.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 116
+[23-Mar-2020 14:53:42 America/Chicago] PHP Notice:  Undefined index: op in /home1/cedrofilms/hbq.mx/sistema/include/slides.php on line 8
+[23-Mar-2020 15:05:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_result() in /home1/cedrofilms/hbq.mx/sistema/cambiar_pwd.php:43
+Stack trace:
+#0 {main}
+  thrown in /home1/cedrofilms/hbq.mx/sistema/cambiar_pwd.php on line 43
+[26-Mar-2020 14:42:47 America/Chicago] PHP Notice:  Undefined index: usuario in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 68
+[30-Mar-2020 12:40:29 America/Chicago] PHP Notice:  Undefined index: usuario in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 68
+[30-Mar-2020 13:19:13 America/Chicago] PHP Notice:  Undefined index: usuario in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 68
+[30-Mar-2020 15:58:59 America/Chicago] PHP Notice:  Undefined index: usuario in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 68
+[31-Mar-2020 16:42:41 America/Chicago] PHP Notice:  Undefined index: usuario in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 68
+[01-Apr-2020 13:01:16 America/Chicago] PHP Notice:  Undefined index: usuario in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 68
+[01-Apr-2020 17:47:21 America/Chicago] PHP Notice:  Undefined index: usuario in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 68
+[06-Apr-2020 11:02:32 America/Chicago] PHP Notice:  Undefined index: usuario in /home1/cedrofilms/hbq.mx/sistema/menu.php on line 68
+[29-Apr-2020 12:53:33 America/Mexico_City] PHP Notice:  Undefined index: usuario in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/menu.php on line 68
+[29-Apr-2020 15:25:18 America/Mexico_City] PHP Notice:  Undefined index: usuario in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/menu.php on line 68
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:27:55 America/Mexico_City] PHP Notice:  Undefined index: visible in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/slides_categorias.php on line 25
+[10-Jun-2020 14:53:23 America/Mexico_City] PHP Warning:  include(include/pedidos.php): failed to open stream: No such file or directory in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/menu.php on line 134
+[10-Jun-2020 14:53:23 America/Mexico_City] PHP Warning:  include(include/pedidos.php): failed to open stream: No such file or directory in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/menu.php on line 134
+[10-Jun-2020 14:53:23 America/Mexico_City] PHP Warning:  include(): Failed opening 'include/pedidos.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/menu.php on line 134
+[10-Jun-2020 14:58:46 America/Mexico_City] PHP Warning:  include(include/pedidos.php): failed to open stream: No such file or directory in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/menu.php on line 134
+[10-Jun-2020 14:58:46 America/Mexico_City] PHP Warning:  include(include/pedidos.php): failed to open stream: No such file or directory in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/menu.php on line 134
+[10-Jun-2020 14:58:46 America/Mexico_City] PHP Warning:  include(): Failed opening 'include/pedidos.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/menu.php on line 134
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 22
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:00 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 24
+[10-Jun-2020 15:01:20 America/Mexico_City] PHP Notice:  Undefined index: id_categoria in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/include/pedidos.php on line 25
+[29-Jun-2020 15:10:59 America/Mexico_City] PHP Notice:  Undefined index: usuario in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/menu.php on line 68
+[29-Jun-2020 17:10:20 America/Mexico_City] PHP Notice:  Undefined index: usuario in /home/transrey/public_html/ferroplasticas.com/nueva/sistema/menu.php on line 68
+[24-Jan-2023 11:02:20 America/Mexico_City] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:02:20 America/Mexico_City] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:06:11 America/Mexico_City] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:06:11 America/Mexico_City] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:06:43 America/Mexico_City] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:06:43 America/Mexico_City] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:06:45 America/Mexico_City] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:06:45 America/Mexico_City] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:07:12 America/Mexico_City] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:07:12 America/Mexico_City] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:07:34 America/Mexico_City] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:07:34 America/Mexico_City] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 17:07:52 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/slides.php on line 2
+[24-Jan-2023 17:07:52 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/slides.php on line 2
+[24-Jan-2023 17:14:44 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/slides.php on line 2
+[24-Jan-2023 17:14:44 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/slides.php on line 2
+[24-Jan-2023 17:14:59 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/slides.php on line 2
+[24-Jan-2023 17:14:59 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/slides.php on line 2
+[24-Jan-2023 17:15:27 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/slides.php on line 2
+[24-Jan-2023 17:15:27 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/slides.php on line 2
+[24-Jan-2023 11:25:24 America/Mexico_City] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:25:24 America/Mexico_City] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:35:43 America/Mexico_City] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:35:43 America/Mexico_City] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:42:10 America/Mexico_City] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:42:10 America/Mexico_City] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:42:50 America/Mexico_City] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:42:50 America/Mexico_City] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 17:45:37 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 17:45:37 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 11:48:01 America/Mexico_City] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 11:48:01 America/Mexico_City] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 17:48:03 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 17:48:03 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 17:48:05 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/categorias.php on line 2
+[24-Jan-2023 17:48:05 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/categorias.php on line 2
+[24-Jan-2023 17:48:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/categorias.php on line 19
+[24-Jan-2023 17:51:35 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 17:51:35 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 17:51:38 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/paquetes.php on line 2
+[24-Jan-2023 17:51:38 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/paquetes.php on line 2
+[24-Jan-2023 17:55:30 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/categorias.php on line 2
+[24-Jan-2023 17:55:30 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/categorias.php on line 2
+[24-Jan-2023 17:55:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/categorias.php on line 19
+[24-Jan-2023 17:56:28 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 17:56:28 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 18:00:44 UTC] PHP Notice:  Undefined index: imagen in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/categorias.php on line 22
+[24-Jan-2023 18:00:44 UTC] PHP Notice:  Undefined index: visible in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/categorias.php on line 24
+[24-Jan-2023 18:02:28 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 18:02:28 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 18:04:15 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 18:04:15 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 12:11:33 America/Mexico_City] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 12:11:33 America/Mexico_City] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/inicio.php on line 3
+[24-Jan-2023 18:13:31 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 18:13:31 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 18:14:14 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 18:14:14 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 18:14:20 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 18:14:20 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 2
+[24-Jan-2023 18:25:47 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/paquetes.php on line 2
+[24-Jan-2023 18:25:47 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/paquetes.php on line 2
+[24-Jan-2023 18:26:18 UTC] PHP Warning:  include(include/tamanos.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 137
+[24-Jan-2023 18:26:18 UTC] PHP Warning:  include(): Failed opening 'include/tamanos.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 137
+[24-Jan-2023 19:05:08 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[24-Jan-2023 19:05:08 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[24-Jan-2023 20:02:32 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[24-Jan-2023 20:02:32 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[24-Jan-2023 20:02:34 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[24-Jan-2023 20:02:34 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[24-Jan-2023 20:47:54 UTC] PHP Notice:  Undefined variable: vino in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 32
+[24-Jan-2023 20:47:54 UTC] PHP Notice:  Undefined variable: vino in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 32
+[24-Jan-2023 20:48:32 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[24-Jan-2023 20:48:32 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[24-Jan-2023 22:34:07 UTC] PHP Notice:  Undefined index: logued in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 2
+[24-Jan-2023 22:34:07 UTC] PHP Notice:  Undefined index: usuario in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 68
+[25-Jan-2023 00:05:37 UTC] PHP Notice:  Undefined index: logued in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 2
+[25-Jan-2023 00:05:37 UTC] PHP Notice:  Undefined index: usuario in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 68
+[25-Jan-2023 18:01:56 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 18:01:56 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 19:36:05 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 19:36:05 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 20:25:11 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 20:25:11 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 20:25:16 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 20:25:16 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 20:26:35 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 20:26:35 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 20:29:58 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 20:29:58 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 20:35:19 UTC] PHP Warning:  include(../include/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 20:35:19 UTC] PHP Warning:  include(): Failed opening '../include/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 20:37:47 UTC] PHP Warning:  include(../PUBLIC/includes/conectar.php): failed to open stream: No such file or directory in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 20:37:47 UTC] PHP Warning:  include(): Failed opening '../PUBLIC/includes/conectar.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/pedidos.php on line 2
+[25-Jan-2023 22:21:00 UTC] PHP Notice:  Undefined index: logued in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 2
+[25-Jan-2023 22:21:01 UTC] PHP Notice:  Undefined index: usuario in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 68
+[25-Jan-2023 22:21:17 UTC] PHP Notice:  Undefined index: logued in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 2
+[25-Jan-2023 22:21:17 UTC] PHP Notice:  Undefined index: usuario in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 68
+[26-Jan-2023 00:27:54 UTC] PHP Notice:  Undefined index: logued in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 2
+[26-Jan-2023 00:27:54 UTC] PHP Notice:  Undefined index: usuario in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 68
+[27-Jan-2023 00:34:18 UTC] PHP Notice:  Undefined index: logued in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 2
+[27-Jan-2023 00:34:18 UTC] PHP Notice:  Undefined index: usuario in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 68
+[27-Jan-2023 17:25:12 UTC] PHP Notice:  Undefined index: logued in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 2
+[27-Jan-2023 17:25:12 UTC] PHP Notice:  Undefined index: usuario in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 68
+[27-Jan-2023 18:06:43 UTC] PHP Notice:  Undefined index: logued in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 2
+[27-Jan-2023 18:06:43 UTC] PHP Notice:  Undefined index: usuario in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 68
+[27-Jan-2023 19:28:13 UTC] PHP Notice:  Undefined index: logued in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 2
+[27-Jan-2023 19:28:13 UTC] PHP Notice:  Undefined index: usuario in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 68
+[27-Jan-2023 20:39:58 UTC] PHP Notice:  Undefined index: logued in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 2
+[27-Jan-2023 20:39:58 UTC] PHP Notice:  Undefined index: usuario in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 68
+[30-Jan-2023 03:17:50 UTC] PHP Notice:  Undefined index: precio_menor in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 59
+[30-Jan-2023 03:17:50 UTC] PHP Notice:  Undefined index: precio_menor in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 59
+[30-Jan-2023 03:17:50 UTC] PHP Notice:  Undefined index: precio_menor in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 59
+[30-Jan-2023 03:18:53 UTC] PHP Notice:  Undefined index: precio_menor in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 59
+[30-Jan-2023 03:18:53 UTC] PHP Notice:  Undefined index: precio_menor in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 59
+[30-Jan-2023 03:18:53 UTC] PHP Notice:  Undefined index: precio_menor in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 59
+[30-Jan-2023 17:01:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 35
+[30-Jan-2023 17:01:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 35
+[30-Jan-2023 17:01:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 35
+[30-Jan-2023 17:01:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 35
+[30-Jan-2023 17:01:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/include/vinos.php on line 35
+[30-Jan-2023 18:38:17 UTC] PHP Notice:  Undefined index: logued in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 2
+[30-Jan-2023 18:38:17 UTC] PHP Notice:  Undefined index: usuario in /home/cbv0yg0bw3bc/public_html/test/matatlan/sistema/menu.php on line 68

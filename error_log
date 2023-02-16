@@ -227,3 +227,273 @@ Stack trace:
 [31-Jan-2023 07:30:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
 [31-Jan-2023 07:31:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
 [31-Jan-2023 07:31:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:17:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:22:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:22:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:22:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:22:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:27:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:27:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:29:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:30:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:34:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:34:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:37:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:37:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:38:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:40:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:42:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:42:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:42:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:42:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:46:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 16:46:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 150
+[31-Jan-2023 16:46:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 16:46:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 150
+[31-Jan-2023 16:46:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 16:46:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 150
+[31-Jan-2023 16:46:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 16:46:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 150
+[31-Jan-2023 16:46:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 16:46:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 150
+[31-Jan-2023 16:46:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 16:46:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 150
+[31-Jan-2023 16:46:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 16:46:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 150
+[31-Jan-2023 16:46:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 16:46:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 150
+[31-Jan-2023 16:47:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 16:47:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 150
+[31-Jan-2023 16:48:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:49:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 16:49:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 145
+[31-Jan-2023 16:49:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 16:49:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 145
+[31-Jan-2023 16:50:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:50:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:56:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 16:57:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[31-Jan-2023 17:11:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 17:11:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 145
+[31-Jan-2023 17:15:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 17:15:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 145
+[31-Jan-2023 17:52:31 UTC] PHP Notice:  Undefined variable: conexion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 4
+[31-Jan-2023 17:52:31 UTC] PHP Notice:  Undefined variable: folio in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 4
+[31-Jan-2023 17:52:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 4
+[31-Jan-2023 17:52:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 5
+[31-Jan-2023 17:53:45 UTC] PHP Notice:  Undefined variable: folio in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 4
+[31-Jan-2023 17:53:45 UTC] PHP Notice:  Undefined variable: conexion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 5
+[31-Jan-2023 17:53:45 UTC] PHP Notice:  Undefined variable: folio in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 5
+[31-Jan-2023 17:53:45 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 5
+[31-Jan-2023 17:53:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 6
+[31-Jan-2023 12:12:21 America/Mexico_City] PHP Notice:  Undefined variable: subtotal in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 58
+[31-Jan-2023 12:12:21 America/Mexico_City] PHP Notice:  Undefined variable: envio in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 62
+[31-Jan-2023 12:12:21 America/Mexico_City] PHP Notice:  Undefined variable: total in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 74
+[31-Jan-2023 18:57:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[31-Jan-2023 18:57:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 145
+[31-Jan-2023 14:49:28 America/Mexico_City] PHP Notice:  Undefined variable: ciudad in /home/cbv0yg0bw3bc/public_html/test/matatlan/informacion-cuenta.php on line 102
+[31-Jan-2023 16:42:23 America/Mexico_City] PHP Notice:  Undefined variable: nombre1 in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 60
+[31-Jan-2023 16:42:23 America/Mexico_City] PHP Notice:  Undefined variable: nombre2 in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 60
+[31-Jan-2023 16:42:23 America/Mexico_City] PHP Notice:  Undefined variable: tel in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 60
+[31-Jan-2023 16:42:23 America/Mexico_City] PHP Notice:  Undefined variable: email in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 60
+[31-Jan-2023 16:42:23 America/Mexico_City] PHP Notice:  Undefined variable: calle in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 64
+[31-Jan-2023 16:42:23 America/Mexico_City] PHP Notice:  Undefined variable: ciudad in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 64
+[31-Jan-2023 16:42:47 America/Mexico_City] PHP Notice:  Undefined variable: nombre1 in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 60
+[31-Jan-2023 16:42:47 America/Mexico_City] PHP Notice:  Undefined variable: nombre2 in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 60
+[31-Jan-2023 16:42:47 America/Mexico_City] PHP Notice:  Undefined variable: tel in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 60
+[31-Jan-2023 16:42:47 America/Mexico_City] PHP Notice:  Undefined variable: email in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 60
+[31-Jan-2023 16:42:47 America/Mexico_City] PHP Notice:  Undefined variable: calle in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 64
+[31-Jan-2023 16:42:47 America/Mexico_City] PHP Notice:  Undefined variable: ciudad in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 64
+[31-Jan-2023 16:43:43 America/Mexico_City] PHP Notice:  Undefined variable: nombre1 in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 60
+[31-Jan-2023 16:43:43 America/Mexico_City] PHP Notice:  Undefined variable: nombre2 in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 60
+[31-Jan-2023 16:43:43 America/Mexico_City] PHP Notice:  Undefined variable: tel in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 60
+[31-Jan-2023 16:43:43 America/Mexico_City] PHP Notice:  Undefined variable: email in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 60
+[31-Jan-2023 16:43:43 America/Mexico_City] PHP Notice:  Undefined variable: calle in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 64
+[31-Jan-2023 16:43:43 America/Mexico_City] PHP Notice:  Undefined variable: ciudad in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 64
+[31-Jan-2023 16:44:18 America/Mexico_City] PHP Notice:  Undefined variable: calle in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 64
+[31-Jan-2023 16:44:18 America/Mexico_City] PHP Notice:  Undefined variable: ciudad in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 64
+[31-Jan-2023 17:17:20 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 64
+[31-Jan-2023 17:17:23 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 64
+[31-Jan-2023 17:19:08 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 56
+[31-Jan-2023 17:19:08 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 56
+[31-Jan-2023 17:19:08 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 56
+[01-Feb-2023 18:57:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[01-Feb-2023 13:05:12 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 56
+[01-Feb-2023 13:05:12 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 56
+[01-Feb-2023 13:17:12 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 56
+[01-Feb-2023 13:17:12 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 56
+[01-Feb-2023 20:00:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[01-Feb-2023 20:00:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:26:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:35:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:37:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:38:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:40:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:40:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:40:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:40:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:40:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:40:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:41:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:41:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:41:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:41:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:41:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:47:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:52:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:55:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:55:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:57:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:58:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 06:58:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:22:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:22:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:22:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:23:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:24:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:26:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:26:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:31:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 07:33:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 16:42:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 16:58:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 16:59:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 16:59:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 16:59:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 16:59:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 16:59:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 16:59:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:00:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:00:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:00:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:00:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:00:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:03:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:04:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:09:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:18:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:19:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:20:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:22:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:23:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:27:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:31:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:32:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:32:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:32:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:32:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:32:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:34:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:34:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:37:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:40:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:40:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:41:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:48:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:48:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:48:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:48:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:48:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:48:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:48:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:48:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:48:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:48:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:49:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:49:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:49:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:49:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:49:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:49:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:49:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:49:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:49:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:49:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:49:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:49:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:49:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:50:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:51:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:53:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:53:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:56:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:56:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:56:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:56:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:56:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:56:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[02-Feb-2023 17:56:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[10-Feb-2023 13:20:22 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 80
+[10-Feb-2023 13:20:22 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/detalle.php on line 145
+[11-Feb-2023 17:35:16 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 56
+[11-Feb-2023 17:35:49 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 56
+[11-Feb-2023 17:41:44 America/Mexico_City] PHP Notice:  Undefined variable: total_general in /home/cbv0yg0bw3bc/public_html/test/matatlan/pagos.php on line 56
+[11-Feb-2023 18:03:24 America/Mexico_City] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/cbv0yg0bw3bc/public_html/test/matatlan/gracias.php on line 22
+[11-Feb-2023 18:04:57 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 30
+[11-Feb-2023 18:05:51 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 30
+[11-Feb-2023 18:08:26 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 30
+[11-Feb-2023 18:10:15 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto_finish.php on line 19
+[11-Feb-2023 18:38:54 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/pasosCompra.php on line 3
+[11-Feb-2023 18:38:54 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/pasosCompra.php on line 8
+[11-Feb-2023 18:38:54 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/pasosCompra.php on line 13
+[11-Feb-2023 18:38:54 America/Mexico_City] PHP Notice:  Undefined variable: clase_1 in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/pasosCompra.php on line 23
+[11-Feb-2023 18:38:54 America/Mexico_City] PHP Notice:  Undefined variable: clase_2 in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/pasosCompra.php on line 27
+[11-Feb-2023 18:38:54 America/Mexico_City] PHP Notice:  Undefined variable: clase_3 in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/pasosCompra.php on line 31
+[11-Feb-2023 18:38:54 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 56
+[11-Feb-2023 18:38:54 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 56
+[11-Feb-2023 18:39:59 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/pasosCompra.php on line 3
+[11-Feb-2023 18:39:59 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/pasosCompra.php on line 8
+[11-Feb-2023 18:39:59 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/pasosCompra.php on line 13
+[11-Feb-2023 18:39:59 America/Mexico_City] PHP Notice:  Undefined variable: clase_1 in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/pasosCompra.php on line 23
+[11-Feb-2023 18:39:59 America/Mexico_City] PHP Notice:  Undefined variable: clase_2 in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/pasosCompra.php on line 27
+[11-Feb-2023 18:39:59 America/Mexico_City] PHP Notice:  Undefined variable: clase_3 in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/pasosCompra.php on line 31
+[11-Feb-2023 18:39:59 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 56
+[11-Feb-2023 18:39:59 America/Mexico_City] PHP Notice:  Undefined variable: bandera_seccion in /home/cbv0yg0bw3bc/public_html/test/matatlan/Public/includes/asideProducto.php on line 56
+[11-Feb-2023 19:13:03 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 38
+[11-Feb-2023 19:13:34 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 38
+[11-Feb-2023 19:14:07 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 38
+[11-Feb-2023 19:15:04 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 38
+[11-Feb-2023 19:16:01 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 38
+[11-Feb-2023 19:16:28 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 38
+[11-Feb-2023 19:17:13 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 38
+[11-Feb-2023 19:17:18 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 38
+[11-Feb-2023 19:18:10 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 38
+[11-Feb-2023 19:19:00 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 38
+[11-Feb-2023 19:19:23 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 38
+[11-Feb-2023 19:19:26 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 38
+[11-Feb-2023 19:20:18 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 37
+[11-Feb-2023 19:20:36 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 37
+[11-Feb-2023 19:22:09 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 37
+[11-Feb-2023 19:22:13 America/Mexico_City] PHP Notice:  Undefined variable: nombre_cliente in /home/cbv0yg0bw3bc/public_html/test/matatlan/enviar_aviso.php on line 37
+[13-Feb-2023 22:55:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[13-Feb-2023 22:55:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[16-Feb-2023 17:16:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[16-Feb-2023 17:19:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[16-Feb-2023 17:19:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[16-Feb-2023 17:19:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[16-Feb-2023 17:19:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[16-Feb-2023 17:20:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[16-Feb-2023 17:23:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[16-Feb-2023 17:23:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
+[16-Feb-2023 17:23:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cbv0yg0bw3bc/public_html/test/matatlan/sumar.php on line 65
