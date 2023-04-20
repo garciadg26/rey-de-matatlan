@@ -57,7 +57,8 @@ h1.tit_secundario_bn{
     font-weight: normal;
     font-style: italic;
     color: var(--color-white);
-    font-size: 5em;
+    font-size: 4em;
+    line-height: 4rem;
 }
 .txt_general{
     font-family: var(--font-bebas-kai)!important;
@@ -656,7 +657,7 @@ ul.menu_footer li.active > a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 60vh;
+    height: 70vh;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

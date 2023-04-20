@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php
-        $title = "Joven Espadín - El Rey de Mazatlán";
+        $title = "Joven Espadín - El Rey de Matatlán";
         $description = "El Rey De Matatlán es una empresa 100% oaxaqueña en la producción artesanal de un mezcal único como nuestros productos";
 
         include_once "Public/includes/head.php";
@@ -67,8 +67,7 @@
                         <div class="cont">
                             <h4 class="tit_product"><?php echo $nombre_vino; ?></h4>
                             <!-- DESCRIPCIÓN DEL PRODUCTO -->
-                            <p class="descp_product">El mezcal joven es un bi-destilado, incoloro, con un aroma ahumado típico en un mezcal artesanal donde se utiliza un horno de piedra par cocinar los agaves, tiene notas que a el exhalar predomina un aroma petricor. <br><br>
-                                Este mezcal es producido en nuestros cultivos de agave espadín (Angustin folia how), con una graduación de 38-40% Alc. Vol. (dependiendo del cliente).</p>
+                            <p class="descp_product"><?php echo $informacion; ?></p>
                             <!-- FILA DESCRIPTIVO -->
                             <div class="row cont_contenido">
                                 <!-- CONTENIDO NETO -->

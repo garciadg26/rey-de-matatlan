@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php
-        $title = "El Rey de Mazatlán - Mezcal Artezanal";
+        $title = "El Rey de Matatlán - Mezcal Artesanal";
         $description = "El Rey De Matatlán es una empresa 100% oaxaqueña en la producción artesanal de un mezcal único como nuestros productos";
 
         include_once "Public/includes/head.php";
@@ -233,6 +233,7 @@
     <?php
         include_once "Public/includes/footer.php";
     ?>
+
     <!-- SLIDE -->
     <script type="text/javascript" src="Public/js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="Public/js/slider.js?ver=1.1.0"></script>

@@ -2,10 +2,12 @@
 <html>
 <head>
 
+
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="Public/js/jquery-1.9.1.min.js"></script> -->
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
     <?php
-        $title = "Carrito - El Rey de Mazatlán";
+        $title = "Carrito - El Rey de Matatlán";
         $description = "El Rey De Matatlán es una empresa 100% oaxaqueña en la producción artesanal de un mezcal único como nuestros productos";
 
         include_once "Public/includes/head.php";
@@ -56,7 +58,8 @@
     		@$row5=mysqli_fetch_array($result5,MYSQLI_ASSOC);
     		@$existe_paquete=$row5['existe'];
     		if($existe_paquete==0){
-    			mysqli_query($conexion, "insert into vin_detalle_pedidos(id_pedido, id_vino, id_tamano, cantidad, precio, subtotal) values($folio, $vino, $tamano, 1, '$precio', '$precio')");
+          @$subtotal=$cantidad*$precio;
+    			mysqli_query($conexion, "insert into vin_detalle_pedidos(id_pedido, id_vino, id_tamano, cantidad, precio, subtotal) values($folio, $vino, $tamano, $cantidad, '$precio', '$subtotal')");
     		}
 
         // ENVIO
@@ -85,7 +88,23 @@
 
     			success: function(data) {
       			$('#bp_1').css('display','none');
-      			$('#bp_2').css('display','none');
+      			$('#bp_2').css('display','block');
+      			$('#bp_2').html(data);
+      			$('#bp_2').focus();
+    			}
+    		});
+    	}
+
+      function restar(pedido, producto){
+        $.ajax({
+    			type: 'POST',
+    			url: 'restar.php',
+    			data: { id: pedido , prod: producto },
+    			// Mostramos un mensaje con la respuesta de PHP
+
+    			success: function(data) {
+      			$('#bp_1').css('display','none');
+      			$('#bp_2').css('display','block');
       			$('#bp_2').html(data);
       			$('#bp_2').focus();
     			}
@@ -115,10 +134,11 @@
     <!-- DATOS CARRITO DE COMPRAS -->
     <section id="cont_carrito">
         <div class="container">
+          <div id="bp_1">
             <div class="row">
                 <div class="col-md-12">
                     <!-- TABLA DE PRODUCTOS -->
-                    <div id="bp_1">
+
                     <div class="table-responsive">
                         <table class="table">
                             <thead>
@@ -160,11 +180,16 @@
                                           echo '<td class="txt_carrito">'.$tamano.'</td>';
                                           echo '<td>';
                                           echo '<div class="cont_cout">';
-                                            echo '<input type="button" value="-" class="qty-minus">';
-                                            echo '<input type="number" value="'.$datos2['cantidad'].'" class="qty" min="1">';
-                                            //echo '<input type="button" value="+" class="qty-plus">';
-                                            echo '<a href="javascript: sumar('.$folio.','.$datos2['id_vino'].');" class="qty-plus">+</a>';
+                                          echo '<a href="javascript: restar('.$folio.','.$datos2['id_vino'].');">-</a>';
+                                          echo '<input class="qty text-center" pattern="[0-9]*" name="quantity" value="'.$datos2['cantidad'].'" type="text">';
+                                          echo '<a class="qty-plus" href="javascript: sumar('.$folio.','.$datos2['id_vino'].');">+</a>';
                                           echo '</div>';
+                                          //echo '<div class="cont_cout">';
+                                            //echo '<input type="button" value="-" class="qty-minus">';
+                                            //echo '<input type="number" value="'.$datos2['cantidad'].'" class="qty" min="1">';
+                                            //echo '<input type="button" value="+" class="qty-plus">';
+                                            //echo '<a href="javascript: sumar('.$folio.','.$datos2['id_vino'].');" class="qty-plus">+</a>';
+                                          //echo '</div>';
                                           echo '</td>';
                                           echo '<td>$'.number_format($datos2['precio'],2).'</td>';
                                           echo '<td>$'.number_format($datos2['subtotal'],2).'</td>';
@@ -185,8 +210,7 @@
                             </tbody>
                         </table>
                     </div>
-                  </div> <!-- CIERRA BLOQUE 1 -->
-                  <div id="bp_2">--</div>
+
                 </div>
             </div>
             <!-- SUBTOTAL -->
@@ -195,7 +219,7 @@
                     <img class="icon_delivery" src="Public/images/icon_delivery.svg" alt="">
                 </div>
                 <div class="col-lg-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                    <p class="txt_general">El peso Máximo del paquete es de 30 kg.</p>
+                    <p class="txt_general">El peso Máximo del paquete es de 30 kg.<br>Peso al momento: </p>
                 </div>
                 <div class="col-lg-6 col-lg-6 col-md-4 col-sm-4 col-12 cont_subtotal">
                     <div class="d-flex">
@@ -218,6 +242,11 @@
                     </div>
                 </div>
             </div>
+
+
+          </div> <!-- CIERRA BLOQUE 1 -->
+          <div id="bp_2"></div>
+
             <!-- BOTONES -->
             <div class="row cont_botones_carrito">
                 <div class="col-md-6 cont_btn_secu_carrito">
@@ -238,7 +267,20 @@
     <?php
         include_once "Public/includes/btnWhatsapp.php";
     ?>
-    <!-- FOOTER -->
+    <script>
+      $(document).ready(function(){
+        menuActive()
+      });
+      function menuActive(){
+        const header = document.getElementById("menu_principal");
+        // INFORMACIÓN CARRITO
+        if ( document.URL.includes("carrito.php") ) {
+            $('.navbar-nav li, .menu_footer li').removeClass("active");
+            $('.navbar-nav li:nth-child(4), .menu_footer li:nth-child(3)').addClass("active");
+        }
+      }
+    </script>
+
     <?php
         //include_once "Public/includes/footer.php";
     ?>

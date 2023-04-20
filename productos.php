@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php
-        $title = "Productos - El Rey de Mazatlán";
+        $title = "Productos - El Rey de Matatlán";
         $description = "El Rey De Matatlán es una empresa 100% oaxaqueña en la producción artesanal de un mezcal único como nuestros productos";
 
         include_once "Public/includes/head.php";
@@ -46,10 +46,19 @@
                         <h1 class="tit_general tit_menu_izq">NUESTRA SELECCIÓN</h1>
                         <div id="list-example" class="list-group">
                             <a class="list-group-item list-group-item-action" href="#list-item-1">Más vendido</a>
-                            <a class="list-group-item list-group-item-action" href="#list-item-2">Artesanal</a>
+                          <?php
+                            $datosc=mysqli_query($conexion, "select * from vin_categorias where id_categoria!=2 order by categoria asc ");
+                              if(mysqli_num_rows($datosc)>0){
+                                while ($datos2c=mysqli_fetch_array($datosc)){
+                                  echo '<a class="list-group-item list-group-item-action" href="#list-item-'.$datos2c['id_categoria'].'">'.$datos2c['categoria'].'</a>';
+                                }
+                              }
+                          ?>
+
+                            <!--<a class="list-group-item list-group-item-action" href="#list-item-2">Artesanal</a>
                             <a class="list-group-item list-group-item-action" href="#list-item-3">Ancestral</a>
                             <a class="list-group-item list-group-item-action" href="#list-item-4">Cremas</a>
-                            <a class="list-group-item list-group-item-action" href="#list-item-5">Derivados</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-5">Derivados</a>-->
                         </div>
                     </div>
                 </div>
@@ -61,83 +70,41 @@
                             <h4 >LOS MÁS VENDIDOS</h4>
                             <div class="row">
                                 <!-- PRODUCTOS INDIV -->
-                                <div class="col-xl-3 col-lg-6 col-md-6 col-6">
-                                    <div class="cont_p_indv">
-                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
-                                        <h6 class="nom_producto">Joven espadín</h6>
-                                        <ul class="lista_ml_producto">
-                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
-                                            <li class="item_ml_producto">1LT</li>
-                                            <li class="item_ml_producto">700ML</li>
-                                            <li class="item_ml_producto">500ML</li>
-                                            <li class="item_ml_producto">250ML</li>
-                                            <li class="item_ml_producto">50ML</li>
-                                        </ul>
-                                        <div class="cont_btn">
-                                            <a class="btn_g btn_principal" href="detalle.php">Ver más
-                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- PRODUCTOS INDIV -->
-                                <div class="col-xl-3 col-lg-6 col-md-6 col-6">
-                                    <div class="cont_p_indv">
-                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
-                                        <h6 class="nom_producto">Reposado con gusano</h6>
-                                        <ul class="lista_ml_producto">
-                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
-                                            <li class="item_ml_producto">1LT</li>
-                                            <li class="item_ml_producto">700ML</li>
-                                            <li class="item_ml_producto">500ML</li>
-                                            <li class="item_ml_producto">250ML</li>
-                                            <li class="item_ml_producto">50ML</li>
-                                        </ul>
-                                        <div class="cont_btn">
-                                            <a class="btn_g btn_principal" href="#">Ver más
-                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- PRODUCTOS INDIV -->
-                                <div class="col-xl-3 col-lg-6 col-md-6 col-6">
-                                    <div class="cont_p_indv">
-                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
-                                        <h6 class="nom_producto">Añejo</h6>
-                                        <ul class="lista_ml_producto">
-                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
-                                            <li class="item_ml_producto">1LT</li>
-                                            <li class="item_ml_producto">700ML</li>
-                                            <li class="item_ml_producto">500ML</li>
-                                            <li class="item_ml_producto">250ML</li>
-                                            <li class="item_ml_producto">50ML</li>
-                                        </ul>
-                                        <div class="cont_btn">
-                                            <a class="btn_g btn_principal" href="#">Ver más
-                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- PRODUCTOS INDIV -->
-                                <div class="col-xl-3 col-lg-6 col-md-6 col-6">
-                                    <div class="cont_p_indv">
-                                        <img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv.jpg" alt="">
-                                        <h6 class="nom_producto">Gran reserva</h6>
-                                        <ul class="lista_ml_producto">
-                                            <!-- COLOCAR CICLO - REGISTRO LITROS -->
-                                            <li class="item_ml_producto">1LT</li>
-                                            <li class="item_ml_producto">700ML</li>
-                                            <li class="item_ml_producto">500ML</li>
-                                        </ul>
-                                        <div class="cont_btn">
-                                            <a class="btn_g btn_principal" href="#">Ver más
-                                                <img src="Public/images/vector_flecha_btn.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <?php
+                                $datose=mysqli_query($conexion, "select * from vin_vinos where visible='si' and especial='si' LIMIT 0,4 ");
+                                  if(mysqli_num_rows($datose)>0){
+                                    while ($datos2e=mysqli_fetch_array($datose)){
+                                      echo '<div class="col-xl-3 col-lg-6 col-md-6 col-6">';
+                                        echo '<div class="cont_p_indv">';
+                                          echo '<img class="mask img-fluid" src="Public/images/'.$datos2e['imagen'].'" alt="">';
+                                          echo '<h6 class="nom_producto">'.$datos2e['nombre_vino'].'</h6>';
+                                          echo '<ul class="lista_ml_producto">';
+                                          $datos=mysqli_query($conexion, "select * from vin_detalle_tamano where id_vino=".$datos2e['id_vino']." order by id_tamano asc");
+                                            if(mysqli_num_rows($datos)>0){
+                                              while ($datos2=mysqli_fetch_array($datos)){
+                                                // TAMAÑO
+                                                $sql = "select * from vin_tamanos where id_tamano=".$datos2['id_tamano']." ";
+                                                $result = mysqli_query($conexion, $sql);
+                                                @$row=mysqli_fetch_array($result,MYSQLI_ASSOC);
+                                                @$tamano=$row['tamano'];
+
+                                                echo '<li class="item_ml_producto">'.$tamano.'</li>';
+                                              }
+                                            }
+                                          echo '</ul>';
+                                          echo '<div class="cont_btn">';
+                                            echo '<a class="btn_g btn_principal" href="detalle.php?vino='.$datos2e['id_vino'].'">Ver más';
+                                            echo '<img src="Public/images/vector_flecha_btn.svg" alt="">';
+                                            echo '</a>';
+                                          echo '</div>';
+                                        echo '</div>';
+                                      echo '</div>';
+                                    }
+                                  }
+                                ?>
+
+
+
                             </div>
                         </article>
                         <!-- ARTESANAL -->
@@ -145,7 +112,7 @@
                             $datost=mysqli_query($conexion, "select * from vin_categorias order by categoria asc");
                               if(mysqli_num_rows($datost)>0){
                                 while ($datos2t=mysqli_fetch_array($datost)){
-                                  echo '<article id="list-item-2" class="cont_list_product">';
+                                  echo '<article id="list-item-'.$datos2t['id_categoria'].'" class="cont_list_product">';
                                     echo '<h4 >'.$datos2t['categoria'].'</h4>';
                                       echo '<div class="row">';
 
@@ -156,7 +123,7 @@
                                               while ($datos2l=mysqli_fetch_array($datosl)){
                                               echo '<div class="col-xl-3 col-lg-6 col-md-6 col-6">';
                                                 echo '<div class="cont_p_indv">';
-                                                  echo '<img class="mask img-fluid" src="Public/images/El-rey-matatlan-producto-indv-vendidos.jpg" alt="">';
+                                                  echo '<img class="mask img-fluid" src="Public/images/'.$datos2l['imagen'].'" alt="">';
                                                   echo '<h6 class="nom_producto">'.$datos2l['nombre_vino'].'</h6>';
                                                   echo '<ul class="lista_ml_producto">';
                                                   $datos=mysqli_query($conexion, "select * from vin_detalle_tamano where id_vino=".$datos2l['id_vino']." order by id_tamano asc");

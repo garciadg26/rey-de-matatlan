@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php
-        $title = "Contacto - El Rey de Mazatlán";
+        $title = "Contacto - El Rey de Matatlán";
         $description = "El Rey De Matatlán es una empresa 100% oaxaqueña en la producción artesanal de un mezcal único como nuestros productos";
 
         include_once "Public/includes/head.php";

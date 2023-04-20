@@ -5,8 +5,19 @@
 	@$producto_2=$_POST['prod'];
 	@$folio_2=$_POST['id'];
 
+	// CANTIDAD
+	$sql1 = "select cantidad from vin_detalle_pedidos where id_pedido=$folio_2 and id_vino=$producto_2";
+	$result1 = mysqli_query($conexion, $sql1);
+	@$row1=mysqli_fetch_array($result1,MYSQLI_ASSOC);
+	@$cantidad=$row1['cantidad'];
+
 	// ACCIÓN
-	mysqli_query($conexion,"update vin_detalle_pedidos set cantidad=cantidad+1, subtotal=precio*cantidad where id_pedido=$folio_2 and id_vino=$producto_2");
+	if($cantidad==1){
+			mysqli_query($conexion,"delete from vin_detalle_pedidos where id_pedido=$folio_2 and id_vino=$producto_2");
+	} else {
+			mysqli_query($conexion,"update vin_detalle_pedidos set cantidad=cantidad-1, subtotal=precio*cantidad where id_pedido=$folio_2 and id_vino=$producto_2");
+	}
+
 
 	// ENVIO
 	$sql6 = "select envio from vin_envios where id_envio=1 ";
